@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="73.15" viewBox="0 0 164 73.15">
+  <g id="Grupo_105596" data-name="Grupo 105596" transform="translate(-2387 -505)">
+    <rect id="Rectángulo_36919" data-name="Rectángulo 36919" width="161" height="26" transform="translate(2388.5 530)" fill="#f6fbd1"/>
+    <line id="Línea_365" data-name="Línea 365" y2="33.222" transform="translate(2388.5 530.001)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Línea_366" data-name="Línea 366" y2="33.222" transform="translate(2549.5 530.001)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Línea_367" data-name="Línea 367" y2="25.556" transform="translate(2420.7 530)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Línea_368" data-name="Línea 368" y2="25.556" transform="translate(2452.9 530)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Línea_369" data-name="Línea 369" y2="25.556" transform="translate(2485.1 530)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Línea_372" data-name="Línea 372" x1="96" transform="translate(2421 518.556)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Línea_370" data-name="Línea 370" y2="25.556" transform="translate(2517.3 530)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <line id="Línea_371" data-name="Línea 371" x1="161" transform="translate(2388.5 555.556)" fill="none" stroke="#12263f" stroke-miterlimit="10" stroke-width="3"/>
+    <text id="_1" data-name="1" transform="translate(2415.483 574.15)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+    <text id="_2" data-name="2" transform="translate(2446.15 574.15)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3" data-name="3" transform="translate(2479.372 574.15)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+    <text id="_01_05_22" data-name="01/05/22" transform="translate(2449.5 514)" fill="#12263f" font-size="9" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">01/05/22</tspan></text>
+    <text id="_4" data-name="4" transform="translate(2512.594 574.15)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+    <path id="Polígono_14" data-name="Polígono 14" d="M4.5,0,9,8H0Z" transform="translate(2415.483 522.5) rotate(-90)" fill="#12263f"/>
+    <path id="Polígono_15" data-name="Polígono 15" d="M4.5,0,9,8H0Z" transform="translate(2523.483 513.5) rotate(90)" fill="#12263f"/>
+  </g>
+</svg>

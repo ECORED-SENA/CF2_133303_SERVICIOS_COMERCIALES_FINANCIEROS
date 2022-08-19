@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="401" height="437" viewBox="0 0 401 437">
+  <g id="Grupo_96749" data-name="Grupo 96749" transform="translate(-389.5 -5531.5)">
+    <g id="Grupo_96742" data-name="Grupo 96742" transform="translate(326 6930)" style="isolation: isolate">
+      <rect id="Rectángulo_36179" data-name="Rectángulo 36179" width="400" height="436" transform="translate(64 -1398)" fill="#fff7df" stroke="#12263f" stroke-width="1"/>
+      <rect id="Rectángulo_36181" data-name="Rectángulo 36181" width="400" height="39" transform="translate(64 -1398)" fill="#ffead8"/>
+      <line id="Línea_228" data-name="Línea 228" x2="400" transform="translate(64 -1237.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_242" data-name="Línea 242" x2="400" transform="translate(64 -1084)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_247" data-name="Línea 247" x2="400" transform="translate(64 -962)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_237" data-name="Línea 237" x2="400" transform="translate(64 -1267.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_241" data-name="Línea 241" x2="400" transform="translate(64 -1114)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_246" data-name="Línea 246" x2="400" transform="translate(64 -992)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_229" data-name="Línea 229" x2="400" transform="translate(64 -1298.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_240" data-name="Línea 240" x2="400" transform="translate(64 -1145)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_245" data-name="Línea 245" x2="400" transform="translate(64 -1023)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_230" data-name="Línea 230" x2="400" transform="translate(64 -1329.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_239" data-name="Línea 239" x2="400" transform="translate(64 -1176)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_248" data-name="Línea 248" x2="400" transform="translate(64 -1207)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_244" data-name="Línea 244" x2="400" transform="translate(64 -1054)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_231" data-name="Línea 231" x2="400" transform="translate(64 -1359.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <line id="Línea_249" data-name="Línea 249" y2="397" transform="translate(320 -1359)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <text id="Préstamos" transform="translate(533 5557)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Préstamos</tspan></text>
+    <text id="Media" transform="translate(405 5591)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Media</tspan></text>
+    <text id="_1_88" data-name="1,88" transform="translate(773 5591)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-30.094" y="0">1,88</tspan></text>
+    <text id="Error_típico" data-name="Error típico" transform="translate(405 5622)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Error típico</tspan></text>
+    <text id="_0_194250697" data-name="0,194250697" transform="translate(773 5622)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-92.984" y="0">0,194250697</tspan></text>
+    <text id="Mediana" transform="translate(405 5653)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Mediana</tspan></text>
+    <text id="_2" data-name="2" transform="translate(773 5653)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-8.984" y="0">2</tspan></text>
+    <text id="Moda" transform="translate(405 5684)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Moda</tspan></text>
+    <text id="_1" data-name="1" transform="translate(773 5684)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-8.984" y="0">1</tspan></text>
+    <text id="Desviación_estándar" data-name="Desviación estándar" transform="translate(405 5715)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Desviación estándar</tspan></text>
+    <text id="_0_971253486" data-name="0,971253486" transform="translate(773 5715)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-92.984" y="0">0,971253486</tspan></text>
+    <text id="Varianza_de_la_muestra" data-name="Varianza de la muestra" transform="translate(405 5746)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Varianza de la muestra</tspan></text>
+    <text id="_0_943333333" data-name="0,943333333" transform="translate(773 5746)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-92.984" y="0">0,943333333</tspan></text>
+    <text id="Curtosis" transform="translate(405 5775)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Curtosis</tspan></text>
+    <text id="_-0_209633384" data-name="-0,209633384" transform="translate(773 5775)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-97.398" y="0">-0,209633384</tspan></text>
+    <text id="Coeficiente_de_asimetría" data-name="Coeficiente de asimetría" transform="translate(405 5806)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Coeficiente de asimetría</tspan></text>
+    <text id="_0_849904206" data-name="0,849904206" transform="translate(773 5806)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-92.984" y="0">0,849904206</tspan></text>
+    <text id="Rango" transform="translate(405 5837)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Rango</tspan></text>
+    <text id="_3" data-name="3" transform="translate(773 5837)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-8.984" y="0">3</tspan></text>
+    <text id="Mínimo" transform="translate(405 5866)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Mínimo</tspan></text>
+    <text id="_1-2" data-name="1" transform="translate(773 5866)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-8.984" y="0">1</tspan></text>
+    <text id="Máximo" transform="translate(405 5895)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Máximo</tspan></text>
+    <text id="_4" data-name="4" transform="translate(773 5895)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-8.984" y="0">4</tspan></text>
+    <text id="Suma" transform="translate(405 5928)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Suma</tspan></text>
+    <text id="_47" data-name="47" transform="translate(773 5928)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-17.969" y="0">47</tspan></text>
+    <text id="Cuenta" transform="translate(405 5957)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Cuenta</tspan></text>
+    <text id="_25" data-name="25" transform="translate(773 5957)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-17.969" y="0">25</tspan></text>
+  </g>
+</svg>

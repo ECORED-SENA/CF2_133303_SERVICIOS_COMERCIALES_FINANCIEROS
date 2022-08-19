@@ -1,17 +1,42 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Gestión de la información y la comunicación',
+    descripcionCurso:
+      'El componente formativo permitirá que el aprendiz apropie conocimientos de gestión de la información, matemática financiera, contabilidad básica, análisis financiero, así como técnicas de venta y comunicación; aplicables en todos los campos y diferentes tipos de organizaciones.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/float-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-5.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-6.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-7.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-8', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/float-8.png'),
       },
     ],
   },

@@ -2,18 +2,95 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 45%
+    right: 4%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 80%
+    right: 25%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 0%
+    right: 23%
+  &-4
+    animation: float1 3.2s ease-in-out infinite alternate
+    position: absolute
+    top: 61%
+    right: 90%
+  &-5
+    animation: float1 3.2s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 70%
+  &-6
+    animation: float1 3.1s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 35%
+  &-7
+    animation: float1 3.4s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 45%
+  &-8
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 0%
+    right: 73%
+  &-tj
+    animation: float2 3.2s ease-in-out infinite alternate
+    position: absolute
+    top: -8rem
+    left: 50%
 
 
+.banner-principal
+  .banner-principal__row
+    min-height: 506px
+  .banner-principal__img
+    padding: 0 !important
+    margin-top: auto
+    img
+      max-height: 485px
+      width: auto
+      margin-top: auto
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/bg-top-header.svg') !important
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateY(20px) translateX(-50%)
+
+  100%
+    transform: translateY(0px) translateX(-50%)
+.bg-texto-img
+  background: linear-gradient(180deg, rgba(0,0,0,0) 25%, rgba(253,216,94,1) 25%, rgba(253,216,94,1) 75%, rgba(0,0,0,0) 75%)
+  @media (max-width: 1200px)
+    background: rgba(253,216,94,1)
+.bloque-texto-edit
+  margin-right: auto
+  margin-left: auto
+  justify-content: start
+  .bloque-texto-g__img
+    left: 50%
+    @media (max-width: 991px)
+      left: 0%
+  .bloque-texto-g__texto
+    width: 60%
+    @media (max-width: 991px)
+      width: 100%
+.slide-a-edit
+  background-color: #E1F3D7
+  .slyder-a__bullets
+    .slyder-a__bullets__item
+      background-color: #E4F476
+      border: none
+      &.slyder-a__bullets__item--active
+        background-color: #B0C710
