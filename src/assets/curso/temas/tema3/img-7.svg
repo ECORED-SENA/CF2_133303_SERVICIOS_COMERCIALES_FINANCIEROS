@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="294" viewBox="0 0 610 294">
+  <g id="Grupo_105825" data-name="Grupo 105825" transform="translate(-495 -3916)">
+    <g id="Grupo_98445" data-name="Grupo 98445" transform="translate(200 -13)">
+      <rect id="Rectángulo_36462" data-name="Rectángulo 36462" width="305" height="294" transform="translate(295 3929)" fill="#fee89f"/>
+      <rect id="Rectángulo_36464" data-name="Rectángulo 36464" width="305" height="147" transform="translate(600 3929)" fill="#fed5b1"/>
+      <rect id="Rectángulo_36465" data-name="Rectángulo 36465" width="305" height="147" transform="translate(600 4076)" fill="#c2e8b0"/>
+      <text id="Activos_corrientes_Activos_líquidos_en_el_corto_plazo." data-name="Activos corrientes 
+Activos líquidos en el corto plazo." transform="translate(318 3996)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Activos corrientes </tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="24">Activos líquidos en el corto plazo.</tspan></tspan></text>
+      <text id="Pasivos_corrientes_Deuda_y_obligaciones_a_corto_plazo." data-name="Pasivos corrientes 
+Deuda y obligaciones a corto plazo." transform="translate(630 3965)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Pasivos corrientes </tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="24">Deuda y obligaciones a corto plazo.</tspan></tspan></text>
+      <text id="Pasivos_no_corrientes_Deuda_y_obligaciones_a_largo_plazo." data-name="Pasivos no corrientes
+Deuda y obligaciones a largo plazo." transform="translate(630 4033)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Pasivos no corrientes</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="24">Deuda y obligaciones a largo plazo.</tspan></tspan></text>
+      <text id="Activos_no_corrientes_Hacen_parte_de_la_empresa_por_su_estructura_pero_no_de_su_etapa_de_productiva_largo_plazo." data-name="Activos no corrientes
+Hacen parte de la empresa por su estructura, pero no de su etapa de productiva – largo plazo." transform="translate(318 4104)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="17">Activos no corrientes</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="41">Hacen parte de la empresa por su </tspan><tspan x="0" y="65">estructura, pero no de su etapa de </tspan><tspan x="0" y="89">productiva – largo plazo.</tspan></tspan></text>
+      <text id="Patrimonio_Capital_reservas_y_resultados." data-name="Patrimonio
+Capital, reservas y resultados." transform="translate(632 4128)" fill="#12263f" font-size="16" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="17">Patrimonio</tspan><tspan font-family="Roboto-Regular, Roboto" font-weight="400"><tspan x="0" y="41">Capital, reservas y resultados.</tspan></tspan></text>
+      <line id="Línea_266" data-name="Línea 266" x2="305" transform="translate(600 4003)" fill="none" stroke="#12263f" stroke-width="3"/>
+      <line id="Línea_268" data-name="Línea 268" y2="294" transform="translate(600 3929)" fill="none" stroke="#12263f" stroke-width="3"/>
+      <line id="Línea_267" data-name="Línea 267" x2="610" transform="translate(295 4076)" fill="none" stroke="#12263f" stroke-width="3"/>
+      <g id="Rectángulo_36466" data-name="Rectángulo 36466" transform="translate(295 3929)" fill="none" stroke="#12263f" stroke-width="3">
+        <rect width="610" height="294" stroke="none"/>
+        <rect x="1.5" y="1.5" width="607" height="291" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
