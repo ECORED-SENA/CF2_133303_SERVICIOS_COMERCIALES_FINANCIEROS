@@ -509,24 +509,6 @@ export default {
   .pasos-a__circle
     .h2
       color: white !important
-.tarjeta-v1
-  width: 19%
-  padding: 3rem 1rem
-  display: flex
-  flex-wrap: wrap
-  justify-content: center
-  text-align: center
-  margin-bottom: 2rem
-  h5
-    width: 100%
-  @media (max-width: 1200px)
-    width: 30%
-    margin-right: auto
-    margin-left: auto
-  @media (max-width: 991px)
-    width: 47%
-  @media (max-width: 768px)
-    width: 100%
 .tarjeta-edit-bg
   display: flex
   flex-wrap: wrap

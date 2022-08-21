@@ -43,7 +43,7 @@
         .col.ps-lg-5
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.text-small Para tener mayor conocimiento sobre los tipos de registros contables y lo que establece el Código de Comercio, te
+              p.mb-0.text-small Para tener mayor conocimiento sobre los tipos de registros contables y lo que establece el Código de Comercio, te
                 br.d-none.d-xl-flex
                 |invitamos a revisar el siguiente documento: #[b(style="font-size: 1rem") Tipos de registros contables y los libros de comercio]
             .col-sm-auto
