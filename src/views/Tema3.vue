@@ -7,18 +7,18 @@
         span 3
       h1 Contabilidad básica
 
-    p.mb-5 Todas las personas y las organizaciones deben de llevar registrada su información financiera y económica, la cual permite contar con un control de sus actividades económicas.
+    p.mb-5(data-aos="fade-right") Todas las personas y las organizaciones deben de llevar registrada su información financiera y económica, la cual permite contar con un control de sus actividades económicas.
 
     .container-img-edit-v2.col-xl-10.mx-auto.mb-5
-      img(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 315px")
-      .container-img-edit-v2-container.col-lg
+      img(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 315px" data-aos="fade-right")
+      .container-img-edit-v2-container.col-lg(data-aos="fade-left")
         p.mb-0 La contabilidad básica es una técnica que produce sistemática y estructuralmente información cuantitativa expresada en unidades monetarias, sobre los eventos económicos identificables y cuantificables que realiza una entidad a través de un proceso de captación de las operaciones que cronológicamente mida, clasifique, registre y resuma con claridad (Moreno, 2014).
           br
           br
           |El registro de la información financiera y económica, empleando la contabilidad, es de gran utilidad para las entidades, debido a que permite analizar e identificar la situación económica, la cual permite la toma de decisiones; el registro de esta información también permite el seguimiento y control de la entidad.
-    p.mb-5 Algunas de las principales características de la contabilidad básica son:
+    p.mb-5(data-aos="fade-right") Algunas de las principales características de la contabilidad básica son:
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       .tarjeta-edit-border.col-lg-6.col-xl-4.pe-3
         img(src="@/assets/curso/temas/tema3/img-2.jpg" style="max-width: 85px")
         p Registro de los movimientos financieros de las organizaciones.
@@ -34,9 +34,9 @@
     .titulo-segundo.color-acento-contenido
       h2#t_3_1 3.1 Tipos de registros contables
     
-    p.mb-5 Los registros contables, o libros contables, permiten el registro contable de todas las actividades económicas y financieras de las entidades; en el Art. 48 del Código de Comercio, se establece la conformidad de libros y papeles del comerciante a las normas comerciales y medios para el asiento de operaciones. 
+    p.mb-5(data-aos="fade-right") Los registros contables, o libros contables, permiten el registro contable de todas las actividades económicas y financieras de las entidades; en el Art. 48 del Código de Comercio, se establece la conformidad de libros y papeles del comerciante a las normas comerciales y medios para el asiento de operaciones. 
 
-    .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
+    .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema3/img-3.png")
@@ -51,31 +51,31 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    p.mb-5 Continuando con los tipos de registros contables y los libros de comercio, es relevante puntualizar que las cuentas T en contabilidad representan el registro de los movimientos contables, lo cual consta del débito y del haber; en el momento en que se realiza el registro se debe diligenciar el código y nombre de la cuenta.
+    p.mb-5(data-aos="fade-right") Continuando con los tipos de registros contables y los libros de comercio, es relevante puntualizar que las cuentas T en contabilidad representan el registro de los movimientos contables, lo cual consta del débito y del haber; en el momento en que se realiza el registro se debe diligenciar el código y nombre de la cuenta.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 5
       span Cuenta T
-    img(src="@/assets/curso/temas/tema3/img-4.jpg" style="max-width: 610px").mb-5.mx-auto
+    img(src="@/assets/curso/temas/tema3/img-4.jpg" style="max-width: 610px" data-aos="fade-left").mb-5.mx-auto
 
-    p.mb-5 Por ejemplo, la empresa Andina S.A. vende mercancía por un valor de $2.000.000 de la cual se realiza pago en efectivo por valor de $1.200.000 y el saldo a crédito por 30 días, al registrar en las cuentas T, tendremos:
+    p.mb-5(data-aos="fade-right") Por ejemplo, la empresa Andina S.A. vende mercancía por un valor de $2.000.000 de la cual se realiza pago en efectivo por valor de $1.200.000 y el saldo a crédito por 30 días, al registrar en las cuentas T, tendremos:
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-left")
       img(src="@/assets/curso/temas/tema3/t-1.svg").col-md-6.col-xl-4.mb-4.px-md-3
       img(src="@/assets/curso/temas/tema3/t-1.svg").col-md-6.col-xl-4.mb-4.px-md-3
       img(src="@/assets/curso/temas/tema3/t-1.svg").col-md-6.col-xl-4.mb-4.px-md-3
     
-    p.mb-5 Los registros contables se deben registrar por el sistema de doble partida, el cual busca un equilibrio en los movimientos contables, de acuerdo con las cuentas estas disminuyen o aumentan en él debe o haber; en el debe se registran todos los ingresos y en el haber todas las salidas.
+    p.mb-5(data-aos="fade-right") Los registros contables se deben registrar por el sistema de doble partida, el cual busca un equilibrio en los movimientos contables, de acuerdo con las cuentas estas disminuyen o aumentan en él debe o haber; en el debe se registran todos los ingresos y en el haber todas las salidas.
     
-    img(src="@/assets/curso/temas/tema3/img-5.svg").mb-5
+    img(src="@/assets/curso/temas/tema3/img-5.svg" data-aos="fade-right").mb-5
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_3_2 3.2 Clasificación de los estados financieros
 
-    p.mb-5 Los estados financieros son el reflejo de la contabilidad de las empresas y muestran su estructura económica y financiera, con base en su actividad económica que ejercen; dentro de los estados financieros se encuentran:
+    p.mb-5(data-aos="fade-right") Los estados financieros son el reflejo de la contabilidad de las empresas y muestran su estructura económica y financiera, con base en su actividad económica que ejercen; dentro de los estados financieros se encuentran:
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-left")
       .d-flex.flex-wrap.col-xl-3.px-2.mb-4
         img.mx-auto.p-0.position-relative(src="@/assets/curso/temas/tema3/tj-1.png" style="margin-bottom: -50px; max-width: 107px")
         .tarjeta.w-100(style="background-color: #FEC08A; padding-top: 45px")
@@ -100,11 +100,11 @@
       h5 Figura 7
       span Estados financieros
 
-    img.d-none.d-xl-flex.mb-5(src="@/assets/curso/temas/tema3/img-6.jpg")
-    img.d-none.d-md-flex.d-xl-none.mb-5(src="@/assets/curso/temas/tema3/img-6_tablet.jpg")
-    img.d-flex.d-md-none.mb-5(src="@/assets/curso/temas/tema3/img-6_movil.jpg")
+    img.d-none.d-xl-flex.mb-5(src="@/assets/curso/temas/tema3/img-6.jpg" data-aos="fade-left")
+    img.d-none.d-md-flex.d-xl-none.mb-5(src="@/assets/curso/temas/tema3/img-6_tablet.jpg" data-aos="fade-left")
+    img.d-flex.d-md-none.mb-5(src="@/assets/curso/temas/tema3/img-6_movil.jpg" data-aos="fade-left")
 
-    p.mb-5 De acuerdo con la Norma Internacional de Contabilidad (NIC), el estado de situación financiera, o balance general, refleja los bienes, dineros y derechos de la empresa, los cuales son denominamos activos y se dividen en activos no corrientes y activos corrientes.
+    p.mb-5(data-aos="fade-right") De acuerdo con la Norma Internacional de Contabilidad (NIC), el estado de situación financiera, o balance general, refleja los bienes, dineros y derechos de la empresa, los cuales son denominamos activos y se dividen en activos no corrientes y activos corrientes.
       br
       br
       |En cuanto a las obligaciones en el estado de situación financiera, se denominan pasivo y también se dividen en pasivos no corrientes y pasivos corrientes; por su parte el capital y las reservas de la empresa se denomina patrimonio.
@@ -113,12 +113,12 @@
       h5 Figura 8
       span El estado de situación financiera
       
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-7.svg" style="max-width: 610px")
-    p.mb-5 Dentro de las organizaciones es indispensable tener presente la estructura de costos, por lo cual se encuentra la contabilidad de costos, que se encarga de informar los costos de productos o servicios.
+    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-7.svg" style="max-width: 610px" data-aos="fade-left")
+    p.mb-5(data-aos="fade-right") Dentro de las organizaciones es indispensable tener presente la estructura de costos, por lo cual se encuentra la contabilidad de costos, que se encarga de informar los costos de productos o servicios.
 
     .container-img-edit-v2.col-xl-10.mx-auto.mb-5
-      img(src="@/assets/curso/temas/tema3/img-8.png" style="max-width: 285px")
-      .container-img-edit-v2-container.col-lg.my-auto
+      img(src="@/assets/curso/temas/tema3/img-8.png" style="max-width: 285px" data-aos="fade-right")
+      .container-img-edit-v2-container.col-lg.my-auto(data-aos="fade-left")
         p.mb-0 En la estructura de costos se identifican los costos directos e indirectos los costos directos son los que directamente están relacionados con el producto o servicio, por ejemplo, las materias primas en la fabricación de productos o la mano de obra calificada en la prestación de un servicio.
           br
           br
@@ -127,20 +127,20 @@
           br
           |Los costos directos, se conocen también como costos variables y dependen de las unidades de productos o servicios, y los costos indirectos se conocen como costos fijos.
 
-    p.mb-5 Estos costos permiten identificar la cantidad de unidades de producto a fabricar o servicios a ofrecer, para alcanzar el punto de equilibrio; por lo cual la fórmula de costos totales es:
+    p.mb-5(data-aos="fade-right") Estos costos permiten identificar la cantidad de unidades de producto a fabricar o servicios a ofrecer, para alcanzar el punto de equilibrio; por lo cual la fórmula de costos totales es:
 
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-9.svg")
+    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-9.svg" data-aos="fade-left")
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 9
       span Punto de equilibrio
 
-    img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-10.svg")
+    img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-10.svg" data-aos="fade-right")
     p.mb-5(style="background-color: #E8E8E8; padding: .4rem 1rem;") Nota. Tomada de Econta (s. f.).
 
     p.mb-5 Para estimar el precio de venta, se emplea la siguiente fórmula:
 
-    .col-xl-6
+    .col-xl-6(data-aos="fade-left")
       .d-flex.mb-4
         img.position-relative(src="@/assets/curso/temas/tema2/img-4.svg" style="max-width: 48px; margin-right: -24px;")
         p.mb-0.w-100.py-4(style="background-color: #FED5B1; padding: .5rem; padding-left: 35px")
@@ -152,16 +152,16 @@
           br
           |% utilidad: porcentaje deseado de utilidad.
     
-    p.mb-5 Ahora, se aborda mediante un ejemplo los conceptos de contabilidad de costos:
+    p.mb-5(data-aos="fade-right") Ahora, se aborda mediante un ejemplo los conceptos de contabilidad de costos:
       br
       br
       |La empresa Andina S. A. fabrica pan tajado el cual tiene la siguiente estructura de costos 
-    img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-11.svg")
+    img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-11.svg" data-aos="fade-left")
 
-    p.mb-5 La empresa Andina S. A. espera una utilidad del 15% por unidad de producto y para el mes de enero fabricó 5.100 bolsas de pan tajado. 
+    p.mb-5(data-aos="fade-right") La empresa Andina S. A. espera una utilidad del 15% por unidad de producto y para el mes de enero fabricó 5.100 bolsas de pan tajado. 
 
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-12.svg")
-    p.mb-5 Con el análisis anterior se puede decir que la empresa tiene problemas de costos, debido a que solo produce 5.100 unidades de pan y para cubrir los costos totales requiere producir 8.925 unidades.
+    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-12.svg" data-aos="fade-left")
+    p.mb-5(data-aos="fade-right") Con el análisis anterior se puede decir que la empresa tiene problemas de costos, debido a que solo produce 5.100 unidades de pan y para cubrir los costos totales requiere producir 8.925 unidades.
       br
       br
       |Otra de las utilidades que se encuentran con la contabilidad es la posibilidad de planeación, mediante la implementación de los presupuestos, que permiten la planeación operativa de la empresa en un periodo de tiempo futuro, dentro de los cuales se encuentran: 
@@ -170,18 +170,18 @@
       h5 Figura 10
       span Presupuesto maestro
 
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-13.svg")
+    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-13.svg" data-aos="fade-left")
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_3_3 3.3 Análisis financiero 
 
-    p.mb-5 El análisis financiero se encarga de realizar análisis de la información contable de una persona o de una entidad, mediante indicadores y razones financieras, los cuales permiten identificar la situación y desempeño económico de las organizaciones.
+    p.mb-5(data-aos="fade-right") El análisis financiero se encarga de realizar análisis de la información contable de una persona o de una entidad, mediante indicadores y razones financieras, los cuales permiten identificar la situación y desempeño económico de las organizaciones.
 
     .container-img-edit-v2.col-xl-10.mx-auto.mb-5
-      img(src="@/assets/curso/temas/tema3/img-14.png" style="max-width: 285px")
-      .container-img-edit-v2-container.col-lg.my-auto(style="background-color: #EDF8A4")
+      img(src="@/assets/curso/temas/tema3/img-14.png" style="max-width: 285px" data-aos="fade-right")
+      .container-img-edit-v2-container.col-lg.my-auto(style="background-color: #EDF8A4" data-aos="fade-left")
         p.mb-0 La contabilidad es base fundamental para realizar los análisis financieros, es de vital importancia que cada organización esté verificando los indicadores y razones financieras para estar enterada de su comportamiento económico y financiero, de nada sirve tener una información contable que no es analizada.
           br
           br
@@ -190,7 +190,7 @@
           br
           |Los indicadores financieros permiten analizar la situación económica y financiera de una empresa, son de vital importancia, debido a que permiten realizar un adecuado seguimiento y control a los estados financieros para la toma de decisiones dentro de las organizaciones.
 
-    p.mb-5 Complementando lo anterior, a continuación, se podrán encontrar algunos de los indicadores económicos que permiten analizar situaciones:
+    p.mb-5(data-aos="fade-right") Complementando lo anterior, a continuación, se podrán encontrar algunos de los indicadores económicos que permiten analizar situaciones:
 
     SlyderA.tarjeta.slide-a-edit.p-3.p-md-4.mb-5(tipo="b" data-aos="fade-right")
       .d-flex.flex-wrap.col-xl-11.mx-auto
@@ -217,7 +217,7 @@
           p Permiten medir la productividad de las empresas.
           img(src='@/assets/curso/temas/tema3/img-19.svg')
 
-    p.mb-5 La capacidad de las empresas de analizar estos indicadores financieros permite que se tenga una correcta educación financiera, que busca tener un concepto más profundo de las finanzas y del manejo del dinero, tanto en lo personal como al interior de las organizaciones.
+    p.mb-5(data-aos="fade-right") La capacidad de las empresas de analizar estos indicadores financieros permite que se tenga una correcta educación financiera, que busca tener un concepto más profundo de las finanzas y del manejo del dinero, tanto en lo personal como al interior de las organizaciones.
       br
       |Todos los análisis que se realicen alrededor de los estados financieros permiten tomar mejores decisiones, tanto para invertir, mejorar o para tomar la decisión de dejar un negocio.
 
@@ -226,9 +226,9 @@
     .titulo-segundo.color-acento-contenido
       h2#t_3_3 3.3 Análisis financiero 
 
-    p.mb-5 Las entidades financieras emplean plataformas tecnológicas, para la comunicación con los consumidores, llegando a la banca digital, donde el consumidor a un solo clic puede gestionar diferente transacción desde cualquier lugar, sin la necesidad de trasladarse de forma presencial a la entidad.
+    p.mb-5(data-aos="fade-right") Las entidades financieras emplean plataformas tecnológicas, para la comunicación con los consumidores, llegando a la banca digital, donde el consumidor a un solo clic puede gestionar diferente transacción desde cualquier lugar, sin la necesidad de trasladarse de forma presencial a la entidad.
 
-    p.mb-5 Existen diferentes tipos de plataformas digitales en el sector financiero: 
+    p.mb-5(data-aos="fade-right") Existen diferentes tipos de plataformas digitales en el sector financiero: 
 
     .tarjeta-edit-bg.mb-5
       .col-xl-6.d-flex.pt-3.order-2.order-xl-1.mx-auto(data-aos="fade-right")
@@ -253,15 +253,15 @@
       .col-xl-6.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0
         img(src='@/assets/curso/temas/tema3/img-15.png' data-aos="fade-left")
 
-    p.mb-5 Algunas de las plataformas en las que se pueden realizar consultas del sector financiero en Colombia son la Superintendencia Financiera de Colombia (SFC), el Banco de la República, Asobancaria, centrales de riesgo como Datacrédito, Central de información Financiera (Cifin), Fenalcheque, Covinoc, Procrédito; y también las páginas web de cada entidad financiera.
+    p.mb-5(data-aos="fade-right") Algunas de las plataformas en las que se pueden realizar consultas del sector financiero en Colombia son la Superintendencia Financiera de Colombia (SFC), el Banco de la República, Asobancaria, centrales de riesgo como Datacrédito, Central de información Financiera (Cifin), Fenalcheque, Covinoc, Procrédito; y también las páginas web de cada entidad financiera.
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_3_3 3.3 Análisis financiero 
     
-    p.mb-5 Las centrales de riesgo son entidades privadas que administran bases de datos que almacenan información respecto al comportamiento financiero de la personas o entidades. Cuando una persona o empresa solicita un préstamo, las entidades financieras consultan estas centrales de riesgo, para verificar el comportamiento de los consumidores; y de acuerdo con el comportamiento de cada consumidor, estos están clasificado por puntajes.
-    p.mb-5 En el siguiente video se podrá encontrar información sobre las principales centrales de riesgo de Colombia como Datacrédito, Cifin, Covinoc, Fenalcheque:
+    p.mb-5(data-aos="fade-right") Las centrales de riesgo son entidades privadas que administran bases de datos que almacenan información respecto al comportamiento financiero de la personas o entidades. Cuando una persona o empresa solicita un préstamo, las entidades financieras consultan estas centrales de riesgo, para verificar el comportamiento de los consumidores; y de acuerdo con el comportamiento de cada consumidor, estos están clasificado por puntajes.
+    p.mb-5(data-aos="fade-right") En el siguiente video se podrá encontrar información sobre las principales centrales de riesgo de Colombia como Datacrédito, Cifin, Covinoc, Fenalcheque:
 
     figure.mb-5(data-aos="fade-left")
       .video

@@ -7,7 +7,7 @@
         span 1
       h1 Titulo de primer nivel
       
-    p.mb-5 Las organizaciones, constantemente se encuentran inmersas en un flujo de información, como la que se suministra y gestiona al interior y la que proviene del entorno exterior; toda esta información es determinante para la toma de decisiones en las organizaciones, como en los procesos o con cada uno de los stakeholders. En el siguiente recurso, se podrán encontrar dos aspectos a través de los cuales se puede llevar a cabo ejercicios de gestión de la información:
+    p.mb-5(data-aos="fade-right") Las organizaciones, constantemente se encuentran inmersas en un flujo de información, como la que se suministra y gestiona al interior y la que proviene del entorno exterior; toda esta información es determinante para la toma de decisiones en las organizaciones, como en los procesos o con cada uno de los stakeholders. En el siguiente recurso, se podrán encontrar dos aspectos a través de los cuales se puede llevar a cabo ejercicios de gestión de la información:
 
     PasosA.pasos-edit.color-acento-contenido.mb-5.mb-5(tipo="n")
       .row(data-aos="fade-left")
@@ -67,14 +67,14 @@
         .col-md-4
           figure
             img(src='@/assets/curso/temas/tema1/img-3.svg')
-    p Por lo cual las organizaciones deben de crear un sistema de información para implementar herramientas que se integren en un sistema que almacena, procesa, conserva, busca y recupera información; y permita mantener una adecuada comunicación. 
+    p(data-aos="fade-right") Por lo cual las organizaciones deben de crear un sistema de información para implementar herramientas que se integren en un sistema que almacena, procesa, conserva, busca y recupera información; y permita mantener una adecuada comunicación. 
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_1_1 1.1 Tipos de información
     
-    p.mb-5 La gestión de la información permite gestionar al interior de las organizaciones, información que se encuentra clasificada de distintas formas y comprenden diferentes utilidades; esta se concibe como un conjunto de datos organizados, de acuerdo con lo requerido por cada organización.
+    p.mb-5(data-aos="fade-right") La gestión de la información permite gestionar al interior de las organizaciones, información que se encuentra clasificada de distintas formas y comprenden diferentes utilidades; esta se concibe como un conjunto de datos organizados, de acuerdo con lo requerido por cada organización.
       br
       br
       |Cada información, con base en sus características, utilidades y relevancia, se puede clasificar en:
@@ -140,7 +140,7 @@
         br
         |Por ejemplo, se puede estudiar comportamientos de los consumidores financieros, como la frecuencia con la cual solicitan préstamos de consumo o la variable ingresos promedio de una población objeto de estudio.
 
-    p.mb-5 En la obtención de información es indispensable implementar unas correctas técnicas o metodologías de recolección, que permitan a las entidades realizar una correcta planeación y ser eficaz en el momento que se deban tomar decisiones. A continuación, encontraremos algunos elementos que la estadística aporta a la recolección de información:
+    p.mb-5(data-aos="fade-right") En la obtención de información es indispensable implementar unas correctas técnicas o metodologías de recolección, que permitan a las entidades realizar una correcta planeación y ser eficaz en el momento que se deban tomar decisiones. A continuación, encontraremos algunos elementos que la estadística aporta a la recolección de información:
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Estadística" :icono="require('@/assets/curso/temas/tema1/p-1.svg')")
@@ -185,9 +185,9 @@
       h5 Figura 1
       span Metodología estadística
     
-    img(src='@/assets/curso/temas/tema1/img-13.svg' data-aos='fade').mb-5
+    img(src='@/assets/curso/temas/tema1/img-13.svg' data-aos='fade-left').mb-5
 
-    p A partir de la recolección de datos, se presenta un ejemplo por medio del cual se estudia el comportamiento de los préstamos a los consumidores de productos financieros de una entidad.
+    p(data-aos="fade-right") A partir de la recolección de datos, se presenta un ejemplo por medio del cual se estudia el comportamiento de los préstamos a los consumidores de productos financieros de una entidad.
       br
       br
       | Siendo así y para ejemplificar un poco por medio de diferentes procedimientos, a continuación, se muestran los datos recolectados de número de consumidores financieros, a los cuales se les hizo la siguiente pregunta: ¿cuántos préstamos de consumo ha obtenido con la entidad financiera? A lo que ellos respondieron:
@@ -238,7 +238,7 @@
         h5 Rango
         p El rango entre en número de préstamos solicitados por los consumidores es de 3, un valor mínimo de 1 y un valor máximo de 4.
 
-    p.mb-5 En cuanto a la recolección de información y datos, se emplean los diferentes técnicas e instrumentos las que se dividen en dos grupos: recolección de datos de fuentes secundarias y #[b recolección de datos de fuentes primarias.]
+    p.mb-5(data-aos="fade-right") En cuanto a la recolección de información y datos, se emplean los diferentes técnicas e instrumentos las que se dividen en dos grupos: recolección de datos de fuentes secundarias y #[b recolección de datos de fuentes primarias.]
       br
       br
       | En cuanto a la recolección de datos de fuentes secundarias deben tomarse de fuentes confiables y verificables, esta información es analizada y recolectada por otros actores y posteriormente son publicadas; dentro de las fuentes secundaria se encuentran:
@@ -269,7 +269,7 @@
       .col-xl-7.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0.position-relative
         img(src='@/assets/curso/temas/tema1/img-20.svg' data-aos="fade-left").img-v2
 
-    p.mb-5 Estas fuentes son de gran valor, pues dan un panorama del entorno en el cual está inmersa la organización, los clientes, proveedores y otros actores que contribuyen para dar valor a las entidades.
+    p.mb-5(data-aos="fade-right") Estas fuentes son de gran valor, pues dan un panorama del entorno en el cual está inmersa la organización, los clientes, proveedores y otros actores que contribuyen para dar valor a las entidades.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.col-xl-10.mx-auto.bloque-texto-edit.mb-5
       .bloque-texto-g__img(
@@ -319,21 +319,21 @@
             p.mb-0 Se realiza con expertos en el sector quienes expresan sus conocimientos respecto a datos recolectados, pueden ser de fuentes secundarias.
 
     .d-flex.flex-wrap.align-items-center.mb-5
-      .col-xl-6.pe-xl-4.order-2.order-xl-1
+      .col-xl-6.pe-xl-4.order-2.order-xl-1(data-aos="fade-right")
         p.mb-0 A continuación, y tomando un instrumento de los anteriores, se explica un poco sobre el proceso a realizar en la encuesta como técnica de implementación de recolección de datos, la cual, en el momento de implementar una encuesta, se debe de definir cuál es el público objetivo a quien se va a dirigir, también se debe definir el tema y tipos de datos que se esperan recolectar.
           br
           br
           |Es de gran importancia realizar recolección de datos e información cualitativos y cuantitativos; en el momento de diseñar el cuestionario de la encuesta estos datos deben estar incluidos, una vez diseñado el cuestionario se estima el número de personas a las que se va a aplicar.
-      .col-xl-6.order-1.order-xl-2.mx-auto
+      .col-xl-6.order-1.order-xl-2.mx-auto(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img-26.svg').mb-4.mb-xl-0
-    p.mb-5 Una vez diseñado el cuestionario y estimado el número de la muestra, #[b se aplica la encuesta de manera presencial, medio telefónico o medios electrónicos;] una vez recolectada la información se analiza mediante métodos estadísticos.
+    p.mb-5(data-aos="fade-right") Una vez diseñado el cuestionario y estimado el número de la muestra, #[b se aplica la encuesta de manera presencial, medio telefónico o medios electrónicos;] una vez recolectada la información se analiza mediante métodos estadísticos.
 
     Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_1_3 1.3 Tipo de base de datos
     
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/temas/tema1/relacional.jpg' style="max-width: 137px;").m-auto.mb-4.mb-xl-auto
       .col-12.col-md.ps-md-4
         p En la gestión de la información en las organizaciones, se gestionan las bases de datos, las cuales se encargan de recopilar y organizar la información; en la actualidad existen software que permiten gestionar las bases de datos y permiten almacenar y acceder de una forma oportuna a la información.
@@ -424,7 +424,7 @@
           figure
             img.ms-md-auto(src='@/assets/curso/temas/tema1/img-27.png' style="max-width: 505px")
     
-    p.mb-5 Estas bases de datos se pueden ubicar en medio local o en la nube; en las bases de datos locales se emplean redes locales (LAN) y es gestionada por la organización; en cuanto a su ubicación en la nube se realiza contratación con proveedores quienes se encargan de realizar el almacenamiento de los datos, a través de internet.
+    p.mb-5(data-aos="fade-right") Estas bases de datos se pueden ubicar en medio local o en la nube; en las bases de datos locales se emplean redes locales (LAN) y es gestionada por la organización; en cuanto a su ubicación en la nube se realiza contratación con proveedores quienes se encargan de realizar el almacenamiento de los datos, a través de internet.
       br
       br
       |En la actualidad existen diferentes motores de bases de datos, los cuales se encargan de gestionar las bases de dato, dentro de los cuales se encuentran MySQL, SQLite, MongoDB, MariaDB; estos sistemas manejan un lenguaje para las bases de datos, el cual el más empleado es el Structured Query Language (SQL).
@@ -434,7 +434,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_4 1.4 Ciclo vital del documento
 
-    p.mb-5 Dentro del sistema de gestión de la información, las organizaciones deben de propender, por dar un adecuado uso y disposición de la información, dentro de esta información se encuentran los documentos, los cuales pueden encontrarse de manera física o digital; por lo cual es de gran importancia comprender el ciclo de vida de estos documentos, y su correcta disposición. 
+    p.mb-5(data-aos="fade-right") Dentro del sistema de gestión de la información, las organizaciones deben de propender, por dar un adecuado uso y disposición de la información, dentro de esta información se encuentran los documentos, los cuales pueden encontrarse de manera física o digital; por lo cual es de gran importancia comprender el ciclo de vida de estos documentos, y su correcta disposición. 
 
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/tema1/img-31.jpg" data-aos="fade-right").col-xl-5.mx-auto.mb-4.mb-xl-0
@@ -449,7 +449,7 @@
         br
         |En cuanto al ciclo de vida de los documentos se abordan cinco fases, las cuales son la creación del documento, la organización y clasificación, la colaboración y revisión, la verificación y la eliminación o custodia de este. 
 
-    p.mb-5 En cuanto a la creación del documento es la fase, en la que se realiza un proyecto o un borrar del este, el cual debe ir de forma organizada y clasificada, de acuerdo con las políticas institucionales; una vez realizado el proyecto y organizado el documento, este debe ser revisado por las personas competentes y verificado según las políticas de calidad. Ya finalizado en su totalidad, se debe determinar su disposición, como lo puede ser la eliminación o la custodia. 
+    p.mb-5(data-aos="fade-right") En cuanto a la creación del documento es la fase, en la que se realiza un proyecto o un borrar del este, el cual debe ir de forma organizada y clasificada, de acuerdo con las políticas institucionales; una vez realizado el proyecto y organizado el documento, este debe ser revisado por las personas competentes y verificado según las políticas de calidad. Ya finalizado en su totalidad, se debe determinar su disposición, como lo puede ser la eliminación o la custodia. 
       br
       br
       |En la siguiente figura se resume el proceso del documento anteriormente mencionado.
@@ -458,11 +458,11 @@
       h5 Figura 4
       span Ciclo de vida de un documento
 
-    img(src='@/assets/curso/temas/tema1/img-32.svg').mb-1
+    img(src='@/assets/curso/temas/tema1/img-32.svg' data-aos="fade-right").mb-1
     p(style="background-color: #E8E8E8").px-4.py-2.mb-5 #[b Nota.] Tomada de tic.portal. 
     p.mb-5 Ahora, a través de la siguiente información, se verá cómo estos documentos se encuentran archivados de acuerdo con su utilidad, empleabilidad y durabilidad.
 
-    .d-flex.flex-wrap.align-items-stretch.mb-5
+    .d-flex.flex-wrap.align-items-stretch.mb-5(data-aos="fade-left")
       .col-lg-6.col-xl-4.p-2.mx-auto(style="margin-top: 8rem" data-aos="fade-right")
         .tarjeta.p-4.position-relative.h-100(style="background-color: #FEE89F")
           img(src='@/assets/curso/temas/tema1/img-33.svg' style="max-width: 258px;").banner-principal-decorativo-tj

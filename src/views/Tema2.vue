@@ -21,7 +21,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1. Interés simple y compuesto
     
-    p.mb-5 Antes de comprender qué es el interés simple y el interés compuesto, se debe entender qué es el interés como tal, el cual permite recibir una compensación o pago por el uso del dinero, es lo que se cobra por el préstamo del dinero y depende del tiempo.
+    p.mb-5(data-aos="fade-right") Antes de comprender qué es el interés simple y el interés compuesto, se debe entender qué es el interés como tal, el cual permite recibir una compensación o pago por el uso del dinero, es lo que se cobra por el préstamo del dinero y depende del tiempo.
       br
       br
       |Ya sabiendo qué es el interés y para conocer la aplicación de las fórmulas para identificar tanto el interés simple como el compuesto, se invita a ver el siguiente video:
@@ -45,8 +45,8 @@
                 i.fas.fa-file-download
 
     .container-img-edit-v2.col-xl-10.mx-auto.mb-5
-      img(src="@/assets/curso/temas/tema2/img-2.png" style="max-width: 315px")
-      .container-img-edit-v2-container.col-lg
+      img(src="@/assets/curso/temas/tema2/img-2.png" style="max-width: 315px" data-aos="fade-right")
+      .container-img-edit-v2-container.col-lg(data-aos="fade-left")
         p.mb-0 El pago de estos dineros, no se da solo con los préstamos, también se da con la captación del dinero, como el ahorro, los Certificado de Depósito a Término Fijo (CDT) e inversiones.
           br
           br
@@ -55,10 +55,10 @@
           br
           |En cuanto al interés simple, es el valor de utilizar el dinero, sobre el monto de un capital que no sufre variaciones en el tiempo; es decir el capital inicial es el mismo durante todo el periodo de tiempo y se aplica la misma tasa de interés. 
 
-    p.mb-5 A continuación, se presenta un ejemplo sobre cómo identificar el interés simple.
+    p.mb-5(data-aos="fade-right") A continuación, se presenta un ejemplo sobre cómo identificar el interés simple.
 
     .d-flex.flex-wrap.mb-5
-      TabsA.color-acento-contenido.mb-5.tabs-edit.col-xl-9.pe-xl-3
+      TabsA.color-acento-contenido.mb-5.tabs-edit.col-xl-9.pe-xl-3(data-aos="fade-right")
         .tarjeta.p-4(titulo="Paso 1" style="background-color: #E1F3D7")
           h4 Paso 1
           p Se pretende determinar el interés simple de un capital de $1.000.000 m/Cte., en un periodo de 5 años a una tasa de interés de 8% anual.
@@ -133,12 +133,12 @@
           br
           |La tasa de interés nominal se encuentra determinada por el capital invertido, en un tiempo determinado o establecido, se encuentran representadas para el periodo de un año; estas tasas de interés no se capitalizan, por lo cual se determinan como un interés simple.
 
-    p.mb-5 Las tasas nominales también se encuentran representadas de acuerdo con el periodo en el cual se encuentra liquidado el interés; es decir, pueden ser anticipadas o vencidas. Para clarificar un poco, a continuación, #[b se expone un ejemplo sobre cómo convertir la tasa de interés.]
+    p.mb-5(data-aos="fade-right") Las tasas nominales también se encuentran representadas de acuerdo con el periodo en el cual se encuentra liquidado el interés; es decir, pueden ser anticipadas o vencidas. Para clarificar un poco, a continuación, #[b se expone un ejemplo sobre cómo convertir la tasa de interés.]
 
     .d-flex.flex-wrap.mb-5
       .col-xl-6.pe-xl-3.order-2.order-xl-1.mt-auto
         h4 Por ejemplo:
-        SlyderE(indicadores="derecha").mt-auto
+        SlyderE(indicadores="derecha" data-aos="fade-left").mt-auto
           .row
             p Se realiza una inversión que pague un interés del 8% nominal al final de cada trimestre, por lo cual se denomina 8% Nominal Trimestre Vencido (NTV); de lo contrario también se puede establecer que el pago del interés es pago al principio de cada trimestre, por lo cual se denomina 8% Nominal Trimestre Anticipado (NTA).
               br
@@ -217,7 +217,7 @@
               |#[b TE: ((1,21) ^(1/12))-1]
               br
               |TE: 1,81% efectiva mensual 
-      img(src="@/assets/curso/temas/tema2/img-6.jpg").col-xl-6.order-1.order-xl-2.mb-4.my-xl-auto
+      img(src="@/assets/curso/temas/tema2/img-6.jpg" data-aos="fade-left").col-xl-6.order-1.order-xl-2.mb-4.my-xl-auto
 
     
 

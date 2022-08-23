@@ -7,7 +7,7 @@
         span 4
       h1 Técnicas de ventas
 
-    p.mb-5 Las organizaciones en el ejercicio de sus actividades tienen como propósito generar ventas de sus productos o servicios, por lo cual deben emplear técnicas de ventas acordes y que se ajusten a cada una de sus actividades económicas y permitan generar estas ventas. Se invita a ver en el siguiente video el concepto de las técnicas de ventas para comprender mejor el tema:
+    p.mb-5(data-aos="fade-right") Las organizaciones en el ejercicio de sus actividades tienen como propósito generar ventas de sus productos o servicios, por lo cual deben emplear técnicas de ventas acordes y que se ajusten a cada una de sus actividades económicas y permitan generar estas ventas. Se invita a ver en el siguiente video el concepto de las técnicas de ventas para comprender mejor el tema:
 
     figure.mb-5(data-aos="fade-left")
       .video
@@ -18,7 +18,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_4_1 4.1 Métodos de ventas
 
-    p.mb-5 Existen diferentes técnicas de ventas como la técnica Spirt, AIDA, Aidda, SPIN, Aicdc, y FAB, entre otras, las cuales dependen de los canales de distribución, estos métodos son tradicionales en cada una de las organizaciones y presenta similitud entre ellos.
+    p.mb-5(data-aos="fade-right") Existen diferentes técnicas de ventas como la técnica Spirt, AIDA, Aidda, SPIN, Aicdc, y FAB, entre otras, las cuales dependen de los canales de distribución, estos métodos son tradicionales en cada una de las organizaciones y presenta similitud entre ellos.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 11
@@ -100,17 +100,17 @@
     .titulo-segundo.color-acento-contenido
       h2#t_4_2 4.2 Estrategias de ventas
 
-    p.mb-5 Estas estrategias  son empleadas por las organizaciones para generar ventas de sus productos y servicios, las cuales se encuentran estrechamente relacionadas con las técnicas de ventas, donde el fin último es la venta de productos y servicios, así como satisfacer las necesidades de los clientes.
+    p.mb-5(data-aos="fade-right") Estas estrategias  son empleadas por las organizaciones para generar ventas de sus productos y servicios, las cuales se encuentran estrechamente relacionadas con las técnicas de ventas, donde el fin último es la venta de productos y servicios, así como satisfacer las necesidades de los clientes.
 
     .container-img-edit-v2.col-xl-10.mx-auto.mb-5
-      img(src="@/assets/curso/temas/tema4/img-3.png" style="max-width: 250px")
-      .container-img-edit-v2-container.col-lg.my-auto
+      img(src="@/assets/curso/temas/tema4/img-3.png" style="max-width: 250px" data-aos="fade-right")
+      .container-img-edit-v2-container.col-lg.my-auto(data-aos="fade-left")
         p.mb-0 Las estrategias de ventas permiten a las organizaciones generar acciones que permitan su crecimiento y madurez; acciones que se generan desde el área comercial, por lo cual es indispensable la creación de un plan de ventas.
           br
           br
           |Al crear un plan estratégico de ventas se debe realizar un estudio o investigación de mercado, que permita comprender el comportamiento de la venta de productos y servicios, tanto al interior de la organización, como el comportamiento de las ventas de sus competidores. También se debe investigar sobre el comportamiento de compra de los consumidores.
 
-    p.mb-5 A continuación, se podrán encontrar los aspectos más relevantes para realizar el plan estratégico de ventas:
+    p.mb-5(data-aos="fade-right") A continuación, se podrán encontrar los aspectos más relevantes para realizar el plan estratégico de ventas:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4" data-aos="fade-left")
       .tarjeta.tarjeta.mx-auto.d-flex.flex-wrap.justify-content-center(style="min-height: 428px; background-color: #85D161;")
@@ -197,7 +197,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_4_4 4.4 Protocolo de servicio
 
-    p.mb-5 Un excelente servicio al cliente debe ser una de las principales estrategias de las organizaciones, pues de este depende la fidelidad del cliente; las organizaciones pueden tener un excelente producto o portafolio de servicios, pero no influyen si el servicio al cliente no es el adecuado no se generan ventas e ingresos. 
+    p.mb-5(data-aos="fade-right") Un excelente servicio al cliente debe ser una de las principales estrategias de las organizaciones, pues de este depende la fidelidad del cliente; las organizaciones pueden tener un excelente producto o portafolio de servicios, pero no influyen si el servicio al cliente no es el adecuado no se generan ventas e ingresos. 
 
     .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
       .row.justify-content-around.align-items-center
@@ -219,12 +219,12 @@
     .titulo-segundo.color-acento-contenido
       h2#t_4_5 4.5 Evaluación del servicio
     
-    p.mb-5 La libreta de calificaciones es un instrumento que permite al cliente calificar el servicio brindado por las organizaciones, es un instrumento de análisis que permite a las organizaciones tomar acciones de mejora.
+    p.mb-5(data-aos="fade-right") La libreta de calificaciones es un instrumento que permite al cliente calificar el servicio brindado por las organizaciones, es un instrumento de análisis que permite a las organizaciones tomar acciones de mejora.
       br
       br
       |Estas se estructuran en tres etapas: atributos del producto o servicio, calidad del servicio y relación de la organización respecto a los atributos del producto. Estas deben contener como elementos básicos de información los siguientes:
 
-    AcordionA.acordeon-t2.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.acordeon-t2.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
       .row.col-xl-11.mx-auto(titulo="Producto")
         .col-md-6.mb-4.mb-md-0
           p Se pretende que el cliente dé su opinión respecto al producto o servicio ofrecido, debe abarcar aspectos claves como el precio, cantidad, calidad, garantía, entre otros.
@@ -266,7 +266,7 @@
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema4/img-15.png')
-    p.mb-5 Para llevar a cabo un proceso eficaz de evaluación de servicio, es importante hacer un registro organizado de las opiniones que tienen los clientes al recibir el servicio, una forma de hacerlo es a través de una libreta de calificaciones, tal como se puede observar a continuación:
+    p.mb-5(data-aos="fade-right") Para llevar a cabo un proceso eficaz de evaluación de servicio, es importante hacer un registro organizado de las opiniones que tienen los clientes al recibir el servicio, una forma de hacerlo es a través de una libreta de calificaciones, tal como se puede observar a continuación:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 13
