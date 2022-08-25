@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Gestión de la información
       
-    p.mb-5(data-aos="fade-right") Las organizaciones, constantemente se encuentran inmersas en un flujo de información, como la que se suministra y gestiona al interior y la que proviene del entorno exterior; toda esta información es determinante para la toma de decisiones en las organizaciones, como en los procesos o con cada uno de los stakeholders. En el siguiente recurso, se podrán encontrar dos aspectos a través de los cuales se puede llevar a cabo ejercicios de gestión de la información:
+    p.mb-5(data-aos="fade-right") Las organizaciones, constantemente se encuentran inmersas en un flujo de información, como la que se suministra y gestiona al interior y la que proviene del entorno exterior; toda esta información es determinante para la toma de decisiones en las organizaciones, como en los procesos o con cada uno de los #[em stakeholders]. En el siguiente recurso, se podrán encontrar dos aspectos a través de los cuales se puede llevar a cabo ejercicios de gestión de la información:
 
     PasosA.pasos-edit.color-acento-contenido.mb-5.mb-5(tipo="n")
       .row(data-aos="fade-left")
@@ -23,8 +23,8 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-2.svg')
         .col-md-8.mb-4.mb-md-0.d-flex.flex-wrap.align-content-center.text-start
-          h3 Visión
-          p.mb-0 Lo que desea lograr o como se ve en el largo tiempo.
+          h3.w-100 Visión
+          p.mb-0 La gestión de la información permite a las organizaciones, hacer un uso adecuado de la información y garantiza que la información esté disponible en el momento que se requiera, por las personas o dependencias que así lo demanden.
       
       .row(data-aos="fade-left")
         .col-md-8.mb-4.mb-md-0.d-flex.flex-wrap.align-content-center
@@ -35,14 +35,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
                   <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.227,17.98.268,12.022a.917.917,0,0,1,0-1.3l1.3-1.3a.917.917,0,0,1,1.3,0l4.014,4.014,8.6-8.6a.917.917,0,0,1,1.3,0l1.3,1.3a.917.917,0,0,1,0,1.3L7.523,17.98A.917.917,0,0,1,6.227,17.98Z" transform="translate(0 -4.577)" fill="#fc8116"/>
                 </svg>
-              | Las organizaciones deben implementar sistemas de información que permitan.
-
-            li
-              .mb-auto.mt-2.me-3 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
-                  <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.227,17.98.268,12.022a.917.917,0,0,1,0-1.3l1.3-1.3a.917.917,0,0,1,1.3,0l4.014,4.014,8.6-8.6a.917.917,0,0,1,1.3,0l1.3,1.3a.917.917,0,0,1,0,1.3L7.523,17.98A.917.917,0,0,1,6.227,17.98Z" transform="translate(0 -4.577)" fill="#fc8116"/>
-                </svg>
-              | conservar, ordenar y recuperar la información.
+              | Las organizaciones deben implementar sistemas de información que permitan. Conservar, ordenar y recuperar la información.
             
             li
               .mb-auto.mt-2.me-3 
@@ -193,21 +186,21 @@
       | Siendo así y para ejemplificar un poco por medio de diferentes procedimientos, a continuación, se muestran los datos recolectados de número de consumidores financieros, a los cuales se les hizo la siguiente pregunta: ¿cuántos préstamos de consumo ha obtenido con la entidad financiera? A lo que ellos respondieron:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
-      h5 tabla 1
+      h5 Tabla 1
       span N.° de datos recolectados
     img(src='@/assets/curso/temas/tema1/t-1.svg' style='max-width: 400px' data-aos='fade-right').mb-5.mx-auto
-
+    p.mb-5 Luego de dichos resultados, se deben presentar los datos de una forma ordenada, que es una de las cualidades de la estadística descriptiva:
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
-      h5 tabla 2
+      h5 Tabla 2
       span Datos recolectados ordenados
     .d-flex.flex-wrap.justify-content-center.mb-5
       img(src='@/assets/curso/temas/tema1/t-2.svg' style='max-width: 400px' data-aos='fade-left').mb-4.mb-xl-0
       img(src='@/assets/curso/temas/tema1/t-3.svg' style='max-width: 400px' data-aos='fade-right').mx-lg-4
     
-    .titulo-sexto.color-acento-contenido(data-aos="fade-left")
-      h5 tabla 3
-      span Medidas de tendencia
     p.mb-5 A partir de la información recolectada, se estima las medidas de tendencia central y desviación estándar, con el uso análisis de datos en Excel:
+    .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+      h5 Tabla 3
+      span Medidas de tendencia
     img(src='@/assets/curso/temas/tema1/t-4.svg' style='max-width: 400px' data-aos='fade-right').mb-5.mx-auto
     
     p.mb-5 Luego, se analizan los datos como procedimiento final de lo ejemplificado:
@@ -280,7 +273,7 @@
         p.mb-0 Con respecto a la recolección de datos primarios, la organización es la encargada de recolectar la información y los datos para, posteriormente, ser analizado, empleando técnicas y métodos estadísticos que permiten realizar un correcto análisis de esta.
           br
           br
-          |Como fuentes primarias de información se encuentran #[b la encuesta, sondeos, focus group, técnica Delphi,] entre otros métodos que al interior de las organizaciones consideren pertinentes en el momento de recolectar datos e información.
+          |Como fuentes primarias de información se encuentran #[b la encuesta, sondeos, #[em focus group], técnica Delphi,] entre otros métodos que al interior de las organizaciones consideren pertinentes en el momento de recolectar datos e información.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 3
@@ -301,7 +294,7 @@
         .tarjeta.p-4.position-relative.h-100(style="background-color: #FEE89F")
           img(src='@/assets/curso/temas/tema1/img-23.svg' style="max-width: 172px;").banner-principal-decorativo-tj
           .text-center.d-flex.flex-wrap(style="margin-top: 5rem")
-            h4.mx-auto.mb-4(style="border-radius: 20px; background-color: white; padding: .3rem 2rem; width: 80%") Focus Group
+            h4.mx-auto.mb-4(style="border-radius: 20px; background-color: white; padding: .3rem 2rem; width: 80%") #[em Focus group]
             p.mb-0 Se recolectan datos a partir de un grupo de personas menor a 10, quienes se reúnen a discutir alrededor de un problema. 
 
       .col-lg-6.col-xl-3.p-2.mx-auto(style="margin-top: 8rem" data-aos="fade-left")
@@ -336,7 +329,7 @@
     .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/temas/tema1/relacional.jpg' style="max-width: 137px;").m-auto.mb-4.mb-xl-auto
       .col-12.col-md.ps-md-4
-        p En la gestión de la información en las organizaciones, se gestionan las bases de datos, las cuales se encargan de recopilar y organizar la información; en la actualidad existen software que permiten gestionar las bases de datos y permiten almacenar y acceder de una forma oportuna a la información.
+        p En la gestión de la información en las organizaciones, se gestionan las bases de datos, las cuales se encargan de recopilar y organizar la información; en la actualidad existen #[em software] que permiten gestionar las bases de datos y permiten almacenar y acceder de una forma oportuna a la información.
           br
           br
           |Es así como existen diferentes tipos de bases de datos, las cuales se encuentran agrupadas por categorías o grupos; a continuación se exponen en detalle sus características:
@@ -407,7 +400,7 @@
                 <svg style="max-width: 20px" xmlns="http://www.w3.org/2000/svg" width="18.667" height="18.666" viewBox="0 0 18.667 18.666">
                   <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M19.229,9.9A9.333,9.333,0,1,1,9.9.563,9.333,9.333,0,0,1,19.229,9.9ZM8.816,14.838l6.925-6.925a.6.6,0,0,0,0-.852l-.852-.852a.6.6,0,0,0-.852,0L8.39,11.857,5.754,9.221a.6.6,0,0,0-.852,0l-.852.852a.6.6,0,0,0,0,.852l3.914,3.914a.6.6,0,0,0,.852,0Z" transform="translate(-0.563 -0.563)" fill="#fc8116"/>
                 </svg>
-                p.ps-3 #[b Base de datos relacionales:] esta base de datos permite almacenar y registrar de forma ordenada los datos en tablas, se implementa el Structured Query Language (SQL); también se han empezado a implementar sistemas que involucran la inteligencia artificial automatizada.
+                p.ps-3 #[b Base de datos relacionales:] esta base de datos permite almacenar y registrar de forma ordenada los datos en tablas, se implementa el #[em Structured Query Language (SQL)]; también se han empezado a implementar sistemas que involucran la inteligencia artificial automatizada.
             li
               .my-auto.me-3.d-flex
                 <svg style="max-width: 20px" xmlns="http://www.w3.org/2000/svg" width="18.667" height="18.666" viewBox="0 0 18.667 18.666">
@@ -427,7 +420,7 @@
     p.mb-5(data-aos="fade-right") Estas bases de datos se pueden ubicar en medio local o en la nube; en las bases de datos locales se emplean redes locales (LAN) y es gestionada por la organización; en cuanto a su ubicación en la nube se realiza contratación con proveedores quienes se encargan de realizar el almacenamiento de los datos, a través de internet.
       br
       br
-      |En la actualidad existen diferentes motores de bases de datos, los cuales se encargan de gestionar las bases de dato, dentro de los cuales se encuentran MySQL, SQLite, MongoDB, MariaDB; estos sistemas manejan un lenguaje para las bases de datos, el cual el más empleado es el Structured Query Language (SQL).
+      |En la actualidad existen diferentes motores de bases de datos, los cuales se encargan de gestionar las bases de dato, dentro de los cuales se encuentran MySQL, SQLite, MongoDB, MariaDB; estos sistemas manejan un lenguaje para las bases de datos, el cual el más empleado es el #[em Structured Query Language (SQL)].
 
     Separador
 

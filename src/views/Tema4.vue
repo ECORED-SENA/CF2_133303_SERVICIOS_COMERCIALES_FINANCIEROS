@@ -210,7 +210,7 @@
                 br.d-none.d-xl-flex
                 |#[b(style="font-size: 1rem") Protocolo de servicio]
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('protocolo_de_servicio.docx')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/protocolo_de_servicio.docx')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

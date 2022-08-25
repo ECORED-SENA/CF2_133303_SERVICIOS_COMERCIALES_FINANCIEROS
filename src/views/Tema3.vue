@@ -47,7 +47,7 @@
                 br.d-none.d-xl-flex
                 |invitamos a revisar el siguiente documento: #[b(style="font-size: 1rem") Tipos de registros contables y los libros de comercio]
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('Tipos_de_registros_contables_y_los_libros_de_comercio.docx')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/comercio.docx')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -62,11 +62,15 @@
 
     .d-flex.flex-wrap.mb-5(data-aos="fade-left")
       img(src="@/assets/curso/temas/tema3/t-1.svg").col-md-6.col-xl-4.mb-4.px-md-3
-      img(src="@/assets/curso/temas/tema3/t-1.svg").col-md-6.col-xl-4.mb-4.px-md-3
-      img(src="@/assets/curso/temas/tema3/t-1.svg").col-md-6.col-xl-4.mb-4.px-md-3
+      img(src="@/assets/curso/temas/tema3/t-2.svg").col-md-6.col-xl-4.mb-4.px-md-3
+      img(src="@/assets/curso/temas/tema3/t-3.svg").col-md-6.col-xl-4.mb-4.px-md-3
     
     p.mb-5(data-aos="fade-right") Los registros contables se deben registrar por el sistema de doble partida, el cual busca un equilibrio en los movimientos contables, de acuerdo con las cuentas estas disminuyen o aumentan en él debe o haber; en el debe se registran todos los ingresos y en el haber todas las salidas.
     
+    .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+      h5 Figura 6
+      span Movimiento contable
+
     img(src="@/assets/curso/temas/tema3/img-5.svg" data-aos="fade-right").mb-5
     Separador
 
@@ -155,7 +159,7 @@
     p.mb-5(data-aos="fade-right") Ahora, se aborda mediante un ejemplo los conceptos de contabilidad de costos:
       br
       br
-      |La empresa Andina S. A. fabrica pan tajado el cual tiene la siguiente estructura de costos 
+      |La empresa Andina S. A. fabrica pan tajado el cual tiene la siguiente estructura de costos.
     img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-11.svg" data-aos="fade-left")
 
     p.mb-5(data-aos="fade-right") La empresa Andina S. A. espera una utilidad del 15% por unidad de producto y para el mes de enero fabricó 5.100 bolsas de pan tajado. 
@@ -224,7 +228,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_3_3 3.3 Análisis financiero 
+      h2#t_3_4 3.4 Plataformas de consultas del sector financiero 
 
     p.mb-5(data-aos="fade-right") Las entidades financieras emplean plataformas tecnológicas, para la comunicación con los consumidores, llegando a la banca digital, donde el consumidor a un solo clic puede gestionar diferente transacción desde cualquier lugar, sin la necesidad de trasladarse de forma presencial a la entidad.
 
@@ -246,10 +250,10 @@
               | Compra de divisas.
             li
               .my-auto.me-3(style="height: 11px; min-width: 11px; border-radius: 50%; background-color: #FC8116")
-              | Plataformas para realizar operaciones de trading.
+              p.mb-0 Plataformas para realizar operaciones de #[em  trading].
             li
               .my-auto.me-3(style="height: 11px; min-width: 11px; border-radius: 50%; background-color: #FC8116")
-              | Plataformas de franquicias para realizar pagos online.
+              p.mb-0 Plataformas de franquicias para realizar pagos #[em  online].
       .col-xl-6.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0
         img(src='@/assets/curso/temas/tema3/img-15.png' data-aos="fade-left")
 
@@ -258,7 +262,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_3_3 3.3 Análisis financiero 
+      h2#t_3_5 3.5 Centrales de riesgo
     
     p.mb-5(data-aos="fade-right") Las centrales de riesgo son entidades privadas que administran bases de datos que almacenan información respecto al comportamiento financiero de la personas o entidades. Cuando una persona o empresa solicita un préstamo, las entidades financieras consultan estas centrales de riesgo, para verificar el comportamiento de los consumidores; y de acuerdo con el comportamiento de cada consumidor, estos están clasificado por puntajes.
     p.mb-5(data-aos="fade-right") En el siguiente video se podrá encontrar información sobre las principales centrales de riesgo de Colombia como Datacrédito, Cifin, Covinoc, Fenalcheque:

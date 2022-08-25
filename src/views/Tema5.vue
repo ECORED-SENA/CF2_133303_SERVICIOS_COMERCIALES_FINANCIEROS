@@ -20,7 +20,7 @@
           br
           |El emisor, es la persona que transmite el mensaje, el receptor quien recibe el mensaje y como lo indicamos el mensaje es lo que queremos comunicar.
 
-    p.mb-5(data-aos="fade-right") La comunicación dentro de la organización en la actualidad no está centrada solo en la interacción tradicional con el cliente, hoy en día las organizaciones dentro de sus rubros presupuestales, contempla inversiones en publicidad y estrategias de marketing para comunicar, interactuar y atraer aún más a su cliente activo y los clientes potenciales.
+    p.mb-5(data-aos="fade-right") La comunicación dentro de la organización en la actualidad no está centrada solo en la interacción tradicional con el cliente, hoy en día las organizaciones dentro de sus rubros presupuestales, contempla inversiones en publicidad y estrategias de #[em marketing] para comunicar, interactuar y atraer aún más a su cliente activo y los clientes potenciales.
       
     .tarjeta.tj-edit-text.col-xl-8.mx-auto.mb-5.p-4
       img(src="@/assets/curso/temas/tema5/img-2.png" style="max-width: 147px" data-aos="fade-right").mb-4.mb-xl-0.mx-auto.position-relative
