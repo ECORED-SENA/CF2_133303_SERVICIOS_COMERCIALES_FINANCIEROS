@@ -159,7 +159,7 @@
     p.mb-5(data-aos="fade-right") Ahora, se aborda mediante un ejemplo los conceptos de contabilidad de costos:
       br
       br
-      |La empresa Andina S. A. fabrica pan tajado el cual tiene la siguiente estructura de costos.
+      |La empresa Andina S. A. fabrica pan tajado el cual tiene la siguiente estructura de costos:
     img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-11.svg" data-aos="fade-left")
 
     p.mb-5(data-aos="fade-right") La empresa Andina S. A. espera una utilidad del 15% por unidad de producto y para el mes de enero fabricó 5.100 bolsas de pan tajado. 
@@ -269,7 +269,7 @@
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2NkIrpE6G7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

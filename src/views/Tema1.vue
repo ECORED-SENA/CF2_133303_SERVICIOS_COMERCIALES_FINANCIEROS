@@ -23,7 +23,6 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-2.svg')
         .col-md-8.mb-4.mb-md-0.d-flex.flex-wrap.align-content-center.text-start
-          h3.w-100 Visión
           p.mb-0 La gestión de la información permite a las organizaciones, hacer un uso adecuado de la información y garantiza que la información esté disponible en el momento que se requiera, por las personas o dependencias que así lo demanden.
       
       .row(data-aos="fade-left")
