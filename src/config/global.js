@@ -448,7 +448,7 @@ export default {
       },
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
-        cargo: 'alidación Contenido',
+        cargo: 'Validación Contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
