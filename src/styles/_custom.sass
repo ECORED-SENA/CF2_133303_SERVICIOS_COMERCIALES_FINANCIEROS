@@ -47,6 +47,8 @@
 
 
 .banner-principal
+  .tarjeta
+    background-position: 6%
   .banner-principal__row
     min-height: 506px
   .banner-principal__img
@@ -94,9 +96,47 @@
       border: none
       &.slyder-a__bullets__item--active
         background-color: #FC8116
+.table-v2
+  p
+    margin-bottom: 0
+    padding: .8rem 2rem
+    min-height: 47px
+  th,td
+    border: none
+    padding: 0
+  .head-table
+    background-color: #FFF7DF
+    border: 2px solid black
+    border-bottom: none
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+    font-weight: bold
+  .body-table-left
+    background-color: #85D161
+    border: 1px solid black
+    border-left: 2px solid black
+    font-weight: bold
+  .body-table-right
+    background-color: #FDAB64
+    border-right: 2px solid black
+    border-bottom: 1px solid black
+    border-top: 1px solid black
+    font-weight: bold
+  .body-table-bottom-left
+    background-color: #FFF7DF
+    border-bottom: 2px solid black
+    border-left: 2px solid black
+    border-right: 1px solid black
+    border-bottom-left-radius: 10px
+  .body-table-bottom-right
+    background-color: #FFF7DF
+    border-bottom: 2px solid black
+    border-right: 2px solid black
+    border-bottom-right-radius: 10px
 .container-img-edit-v2
   display: flex
   flex-wrap: wrap
+  align-items: center
   img
     margin-right: -160px
     position: relative
@@ -131,6 +171,26 @@
   margin-bottom: 2rem
   h5
     width: 100%
+  @media (max-width: 1200px)
+    width: 23%
+  @media (max-width: 991px)
+    width: 30%
+  @media (max-width: 768px)
+    width: 100%
+.table-edit
+  max-width: 400px
+  background-color: #fff7df
+  font-weight: bold
+  text-align: center
+  td
+    border: 1px solid black
+  th
+    background-color: #ffead8
+    border: 1px solid black
+    border-top: 2px solid black
+    border-bottom: 2px solid black
+    font-weight: bold
+    font-size: 1rem
   @media (max-width: 1200px)
     width: 30%
     margin-right: auto

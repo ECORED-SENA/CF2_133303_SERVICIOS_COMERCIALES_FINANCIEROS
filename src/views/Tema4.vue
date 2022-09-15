@@ -25,7 +25,7 @@
       span Métodos técnicos de ventas
 
     .d-flex.flex-wrap.mb-5.justify-content-between(data-aos='fade-right')
-      .tarjeta.tarjeta-v1.justify-content-start.align-content-start(style="background-color: #FDD85E")
+      .tarjeta.tarjeta-v1.justify-content-start.align-content-start(style="background-color: #FEC08A")
         img(src='@/assets/curso/temas/tema4/prestamo.png' style='max-width: 73px').mb-auto.me-auto
         h5.mt-4.text-start SPIRT
         p.text-start.mb-auto #[b 1.] Servicio de calidad.
@@ -47,7 +47,7 @@
           |#[b 3.] Generar deseo.
           br
           |#[b 4.] Finalización - acción.
-      .tarjeta.tarjeta-v1.justify-content-start.align-content-start(style="background-color: #C2E8B0")
+      .tarjeta.tarjeta-v1.justify-content-start.align-content-start(style="background-color: #FEC08A")
         img(src='@/assets/curso/temas/tema4/prestamo.png' style='max-width: 73px').mb-auto.me-auto
         h5.mt-4.text-start AIDDA
         p.text-start.mb-auto #[b 1.] Servicio de calidad atención.
@@ -69,7 +69,7 @@
           |#[b 3.] Implicaciones para el cliente.
           br
           |#[b 4.] Necesidad del cliente.
-      .tarjeta.tarjeta-v1.justify-content-start.align-content-start(style="background-color: #C2E8B0")
+      .tarjeta.tarjeta-v1.justify-content-start.align-content-start(style="background-color: #FEC08A")
         img(src='@/assets/curso/temas/tema4/prestamo.png' style='max-width: 73px').mb-auto.me-auto
         h5.mt-4.text-start AICDC
         p.text-start.mb-auto #[b 1.] Atención.
@@ -161,7 +161,7 @@
             img(src='@/assets/curso/temas/tema4/img-5.jpg')
       
       .row(data-aos="fade-right")
-        .col-md-6
+        .col-md-6.mb-4.mb-md-0
           figure
             img(src='@/assets/curso/temas/tema4/img-6.jpg')
         .col-md-6.mb-4.mb-md-0.d-flex.flex-wrap.align-content-center.text-start
@@ -177,7 +177,7 @@
             img(src='@/assets/curso/temas/tema4/img-7.jpg')
       
       .row(data-aos="fade-right")
-        .col-md-6
+        .col-md-6.mb-4.mb-md-0
           figure
             img(src='@/assets/curso/temas/tema4/img-8.jpg')
         .col-md-6.mb-4.mb-md-0.d-flex.flex-wrap.align-content-center.text-start
@@ -272,7 +272,7 @@
       h5 Figura 13
       span Libreta de calificaciones
 
-    img.mx-auto.col-xl-10(src="@/assets/curso/temas/tema4/img-16.svg" data-aos="fade-right")
+    img.mx-auto.col-xl-8(src="@/assets/curso/temas/tema4/img-16.svg" data-aos="fade-right")
 
 </template>
 

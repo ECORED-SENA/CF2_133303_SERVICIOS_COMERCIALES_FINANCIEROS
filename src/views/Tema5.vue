@@ -61,24 +61,24 @@
     p.mb-5(data-aos="fade-right") Dentro de los canales de comunicación se encuentran la comunicación personal, interpersonal e interactiva. Ahora, se verá la explicación de cada uno:
 
     .d-flex.flex-wrap
-      img.col-xl-4(src="@/assets/curso/temas/tema5/img-6.svg" style="max-width: 377px" data-aos="fade-right")
+      img.col-xl-4.mb-4.mb-xl-0(src="@/assets/curso/temas/tema5/img-6.svg" style="max-width: 377px" data-aos="fade-right")
       AcordionA.acordeon-t2.mb-5.col-xl-8.ps-xl-4(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
         .row.col-xl-11.mx-auto(titulo="Comunicación personal")
-          .col-md-6
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema5/img-7.png')
           .col-md-6.mb-4.mb-md-0
             p Es la que permite tener una mayor interacción con el consumidor, en los cuales se encuentran medios como la atención en oficina, llamada telefónica o chat.
         
         .row.col-xl-11.mx-auto(titulo="Canal interpersonal")
-          .col-md-6
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema5/img-8.png')
           .col-md-6.mb-4.mb-md-0
             p Es la comunicación que se emite a muchos receptores, pero está dirigida a un grupo de personas específico; como medio encontramos el e-mail, circulares, diarios oficiales, entre otros.
         
         .row.col-xl-11.mx-auto(titulo="Canales interactivos")
-          .col-md-6
+          .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema5/img-9.png')
           .col-md-6.mb-4.mb-md-0

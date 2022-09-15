@@ -61,9 +61,51 @@
     p.mb-5(data-aos="fade-right") Por ejemplo, la empresa Andina S.A. vende mercancía por un valor de $2.000.000 de la cual se realiza pago en efectivo por valor de $1.200.000 y el saldo a crédito por 30 días, al registrar en las cuentas T, tendremos:
 
     .d-flex.flex-wrap.mb-5(data-aos="fade-left")
-      img(src="@/assets/curso/temas/tema3/t-1.svg").col-md-6.col-xl-4.mb-4.px-md-3
-      img(src="@/assets/curso/temas/tema3/t-2.svg").col-md-6.col-xl-4.mb-4.px-md-3
-      img(src="@/assets/curso/temas/tema3/t-3.svg").col-md-6.col-xl-4.mb-4.px-md-3
+      .col-md-6.col-xl-4.mb-4.px-md-3
+        table.table-v2
+          tr.text-center
+            th(colspan="2")
+              p.head-table 4135 comercio al por mayor y al por menor
+          tr.text-center
+            td
+              p.body-table-left Debe
+            td
+              p.body-table-right Haber
+          tr.text-center
+            td
+              p.body-table-bottom-left 
+            td
+              p.body-table-bottom-right $2.000.000
+      .col-md-6.col-xl-4.mb-4.px-md-3
+        table.table-v2
+          tr.text-center
+            th(colspan="2")
+              p.head-table 110505 caja
+          tr.text-center
+            td
+              p.body-table-left Debe
+            td
+              p.body-table-right Haber
+          tr.text-center
+            td
+              p.body-table-bottom-left $1.200.000
+            td
+              p.body-table-bottom-right 
+      .col-md-6.col-xl-4.mb-4.px-md-3
+        table.table-v2
+          tr.text-center
+            th(colspan="2")
+              p.head-table 138020 cuentas por cobrar de terceros
+          tr.text-center
+            td
+              p.body-table-left Debe
+            td
+              p.body-table-right Haber
+          tr.text-center
+            td
+              p.body-table-bottom-left $700.000
+            td
+              p.body-table-bottom-right
     
     p.mb-5(data-aos="fade-right") Los registros contables se deben registrar por el sistema de doble partida, el cual busca un equilibrio en los movimientos contables, de acuerdo con las cuentas estas disminuyen o aumentan en él debe o haber; en el debe se registran todos los ingresos y en el haber todas las salidas.
     
@@ -103,10 +145,40 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 7
       span Estados financieros
+    .d-flex.flex-wrap.mb-5
+      .col-xl-3.col-lg-6.px-lg-5.px-xl-2.mb-4
+        .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #FED5B1")
+          .p-4.w-100.mb-auto(style="background-color: #FDAB64; border-top-right-radius: 15px; border-top-left-radius: 15px;")
+            img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/sl-1.svg" style="max-width: 46px")
+            h4.text-center.mb-2(style="min-height: 44px;") Estado de situación financiera (balance general)
+          .px-5.py-4.w-100(style="background-color: #FED5B1; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
+            p Bienes, dinero y derechos (activos).
+              | Obligaciones (pasivos).
+              | Capital y reservas (patrimonio)
+      
+      .col-xl-3.col-lg-6.px-lg-5.px-xl-2.mb-4
+        .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #E1F3D7")
+          .p-4.w-100.mb-auto(style="background-color: #85D161; border-top-right-radius: 15px; border-top-left-radius: 15px;")
+            img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/sl-1.svg" style="max-width: 46px")
+            h4.text-center.mb-2(style="min-height: 44px;") Estado de resultados
+          .px-5.py-4.w-100(style="background-color: #E1F3D7; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
+            p Refleja los ingresos y costos de la empresa y detalla si en el periodo hubo beneficios o pérdidas.
 
-    img.d-none.d-xl-flex.mb-5(src="@/assets/curso/temas/tema3/img-6.jpg" data-aos="fade-left")
-    img.d-none.d-md-flex.d-xl-none.mb-5(src="@/assets/curso/temas/tema3/img-6_tablet.jpg" data-aos="fade-left")
-    img.d-flex.d-md-none.mb-5(src="@/assets/curso/temas/tema3/img-6_movil.jpg" data-aos="fade-left")
+      .col-xl-3.col-lg-6.px-lg-5.px-xl-2.mb-4
+        .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #FEEFBF")
+          .p-4.w-100.mb-auto(style="background-color: #FDE07E; border-top-right-radius: 15px; border-top-left-radius: 15px;")
+            img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/sl-1.svg" style="max-width: 46px")
+            h4.text-center.mb-2(style="min-height: 44px;") Estado de cambio en el patrimonio
+          .px-5.py-4.w-100(style="background-color: #FEEFBF; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
+            p Refleja la variación de entradas y salidas de dinero en un periodo determinado; se detalla la evolución del patrimonio.
+
+      .col-xl-3.col-lg-6.px-lg-5.px-xl-2.mb-4
+        .tarjeta.p-0.h-100.d-flex.flex-wrap(style="background-color: #F6FBD1")
+          .p-4.w-100.mb-auto(style="background-color: #E4F476; border-top-right-radius: 15px; border-top-left-radius: 15px;")
+            img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/sl-1.svg" style="max-width: 46px")
+            h4.text-center.mb-2(style="min-height: 44px;") Estado de flujo de efectivo
+          .px-5.py-4.w-100(style="background-color: #F6FBD1; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
+            p Refleja las fuentes y usos del efectivo en la empresa.
 
     p.mb-5(data-aos="fade-right") De acuerdo con la Norma Internacional de Contabilidad (NIC), el estado de situación financiera, o balance general, refleja los bienes, dineros y derechos de la empresa, los cuales son denominamos activos y se dividen en activos no corrientes y activos corrientes.
       br
@@ -116,8 +188,28 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 8
       span El estado de situación financiera
-      
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-7.svg" style="max-width: 610px" data-aos="fade-left")
+
+    table.mx-auto.mb-5(style="max-width: 610px")
+      tr
+        td.p-3(rowspan="2" style="background-color: #FEE89F; border: 3px solid black;") #[b Activos corrientes]
+          br
+          |Activos líquidos en el corto plazo.
+        td.p-3(style="background-color: #FED5B1; border: 3px solid black;") #[b Pasivos corrientes]
+          br
+          |Deuda y obligaciones a corto plazo.
+      tr
+        td.p-3(style="background-color: #FED5B1; border: 3px solid black;") #[b Pasivos no corrientes]
+          br
+          |Deuda y obligaciones a largo plazo.
+      tr
+        td.p-3(style="background-color: #FEE89F; border: 3px solid black;") #[b Activos no corrientes]
+          br
+          |Hacen parte de la empresa por su estructura, pero no de su etapa de productiva - largo plazo.
+        td.p-3(style="background-color: #C2E8B0; border: 3px solid black;") #[b Patrimonio]
+          br
+          |Capital, reservas y resultados.
+    
+
     p.mb-5(data-aos="fade-right") Dentro de las organizaciones es indispensable tener presente la estructura de costos, por lo cual se encuentra la contabilidad de costos, que se encarga de informar los costos de productos o servicios.
 
     .container-img-edit-v2.col-xl-10.mx-auto.mb-5
@@ -160,7 +252,41 @@
       br
       br
       |La empresa Andina S. A. fabrica pan tajado el cual tiene la siguiente estructura de costos:
-    img.col-xl-10.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-11.svg" data-aos="fade-left")
+
+    table.col-xl-10.mx-auto.mb-5.text-center(style="border: 2px solid #707070;")
+      tr(style="border: 2px solid #707070;")
+        td(colspan="2" style="background-color: #FEE89F") #[b Costos variables]
+        td(colspan="2" style="background-color: #FEE89F") #[b Costos fijos]
+      tr(style="border: 2px solid #707070;")
+        td(style="background-color: #FFF7DF") Harina de trigo
+        td(style="border: 2px solid #707070;") $13.000.000
+        td(style="background-color: #FFF7DF") Arrendamiento
+        td(style="border: 2px solid #707070;") $2.500.000
+      tr(style="border: 2px solid #707070;")
+        td(style="background-color: #FFF7DF") Mantequilla
+        td(style="border: 2px solid #707070;") $6.000.000
+        td(style="background-color: #FFF7DF") Mano de obra indirecta
+        td(style="border: 2px solid #707070;") $3.000.000
+      tr(style="border: 2px solid #707070;")
+        td(style="background-color: #FFF7DF") Levadura
+        td(style="border: 2px solid #707070;") $1.500.000
+        td(style="background-color: #FFF7DF") Servicios públicos
+        td(style="border: 2px solid #707070;") $700.000
+      tr(style="border: 2px solid #707070;")
+        td(style="background-color: #FFF7DF") Sal
+        td(style="border: 2px solid #707070;") $700.000
+        td(style="background-color: #FFF7DF") Personal de vigilancia
+        td(style="border: 2px solid #707070;") $1.500.000
+      tr(style="border: 2px solid #707070;")
+        td(style="background-color: #FFF7DF") Bolsa de empacado
+        td(style="border: 2px solid #707070;") $1.900.00
+        td(style="background-color: #FFF7DF") 
+        td(style="border: 2px solid #707070;") 
+      tr(style="border: 2px solid #707070;")
+        td(style="background-color: #FFF7DF") Mano de obra directa
+        td(style="border: 2px solid #707070;") $5.000.000
+        td(style="background-color: #FFF7DF") 
+        td(style="border: 2px solid #707070;") 
 
     p.mb-5(data-aos="fade-right") La empresa Andina S. A. espera una utilidad del 15% por unidad de producto y para el mes de enero fabricó 5.100 bolsas de pan tajado. 
 
@@ -234,7 +360,7 @@
 
     p.mb-5(data-aos="fade-right") Existen diferentes tipos de plataformas digitales en el sector financiero: 
 
-    .tarjeta-edit-bg.mb-5
+    .tarjeta-edit-bg.col-xl-10.mx-auto.mb-5
       .col-xl-6.d-flex.pt-3.order-2.order-xl-1.mx-auto(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img-15.svg' style="max-width: 43px")
         .col.ps-4.d-flex.flex-wrap.align-content-center

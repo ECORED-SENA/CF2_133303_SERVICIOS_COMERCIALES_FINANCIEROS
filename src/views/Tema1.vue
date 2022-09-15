@@ -19,7 +19,7 @@
             img(src='@/assets/curso/temas/tema1/img-1.svg')
       
       .row(data-aos="fade-right")
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           figure
             img(src='@/assets/curso/temas/tema1/img-2.svg')
         .col-md-8.mb-4.mb-md-0.d-flex.flex-wrap.align-content-center.text-start
@@ -31,28 +31,28 @@
           ul.lista-ul--color.mb-0
             li
               .mb-auto.mt-2.me-3 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
+                <svg style="min-width: 16px; max-width: 16px" xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
                   <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.227,17.98.268,12.022a.917.917,0,0,1,0-1.3l1.3-1.3a.917.917,0,0,1,1.3,0l4.014,4.014,8.6-8.6a.917.917,0,0,1,1.3,0l1.3,1.3a.917.917,0,0,1,0,1.3L7.523,17.98A.917.917,0,0,1,6.227,17.98Z" transform="translate(0 -4.577)" fill="#fc8116"/>
                 </svg>
               | Las organizaciones deben implementar sistemas de información que permitan. Conservar, ordenar y recuperar la información.
             
             li
               .mb-auto.mt-2.me-3 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
+                <svg style="min-width: 16px; max-width: 16px" xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
                   <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.227,17.98.268,12.022a.917.917,0,0,1,0-1.3l1.3-1.3a.917.917,0,0,1,1.3,0l4.014,4.014,8.6-8.6a.917.917,0,0,1,1.3,0l1.3,1.3a.917.917,0,0,1,0,1.3L7.523,17.98A.917.917,0,0,1,6.227,17.98Z" transform="translate(0 -4.577)" fill="#fc8116"/>
                 </svg>
               | Implementar sistemas de comunicación externa que permitan conservar, ordenar y recuperar esta información.
             
             li
               .mb-auto.mt-2.me-3 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
+                <svg style="min-width: 16px; max-width: 16px" xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
                   <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.227,17.98.268,12.022a.917.917,0,0,1,0-1.3l1.3-1.3a.917.917,0,0,1,1.3,0l4.014,4.014,8.6-8.6a.917.917,0,0,1,1.3,0l1.3,1.3a.917.917,0,0,1,0,1.3L7.523,17.98A.917.917,0,0,1,6.227,17.98Z" transform="translate(0 -4.577)" fill="#fc8116"/>
                 </svg>
               | Implementar sistemas de comunicación al interior de la organización.
 
             li
               .mb-auto.mt-2.me-3 
-                <svg xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
+                <svg style="min-width: 16px; max-width: 16px" xmlns="http://www.w3.org/2000/svg" width="18.333" height="13.672" viewBox="0 0 18.333 13.672">
                   <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M6.227,17.98.268,12.022a.917.917,0,0,1,0-1.3l1.3-1.3a.917.917,0,0,1,1.3,0l4.014,4.014,8.6-8.6a.917.917,0,0,1,1.3,0l1.3,1.3a.917.917,0,0,1,0,1.3L7.523,17.98A.917.917,0,0,1,6.227,17.98Z" transform="translate(0 -4.577)" fill="#fc8116"/>
                 </svg>
               | Evaluación continua y periódica de los sistemas de información.
@@ -75,46 +75,36 @@
       .tarjeta.tarjeta-slide.arriba.mx-auto.d-flex.align-items-center(style=" min-height: 428px; background-color: #FED5B1;")
         .tarjeta-slide__contenedor
           .tarjeta-slide__contenido.p-4.text-center
-            p #[b Información pública] 
-              br
-              br
-              |Es la información a la cual el público en general puede tener acceso, como las normas, de las cuales todos los ciudadanos deben estar enterados y es de obligatoriedad ser divulgada; las noticias son otro ejemplo de información pública.
+            h4 Información pública
+            p Es la información a la cual el público en general puede tener acceso, como las normas, de las cuales todos los ciudadanos deben estar enterados y es de obligatoriedad ser divulgada; las noticias son otro ejemplo de información pública.
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-4.svg')})`}")
 
       .tarjeta.tarjeta-slide.arriba.mx-auto.d-flex.align-items-center(style=" min-height: 428px; background-color: #FED5B1;")
         .tarjeta-slide__contenedor
           .tarjeta-slide__contenido.p-4.text-center
-            p #[b Información privilegiada]
-              br
-              br
-              |También conocida como información confidencial, es empleada o utilizada por un pequeño grupo de personas o entidades; no se puede compartir o hacer pública.
+            h4 Información privilegiada
+            p También conocida como información confidencial, es empleada o utilizada por un pequeño grupo de personas o entidades; no se puede compartir o hacer pública.
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-5.svg')})`}")
       
       .tarjeta.tarjeta-slide.arriba.mx-auto.d-flex.align-items-center(style=" min-height: 428px; background-color: #FED5B1;")
         .tarjeta-slide__contenedor
           .tarjeta-slide__contenido.p-4.text-center
-            p #[b Información privada]
-              br
-              br
-              |Es la información que se relaciona con la privacidad de las personas y no puede ser pública, como la información bancaria, las historias clínicas.
+            h4 Información privada
+            p Es la información que se relaciona con la privacidad de las personas y no puede ser pública, como la información bancaria, las historias clínicas.
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-6.svg')})`}")
       
       .tarjeta.tarjeta-slide.arriba.mx-auto.d-flex.align-items-center(style=" min-height: 428px; background-color: #FED5B1;")
         .tarjeta-slide__contenedor
           .tarjeta-slide__contenido.p-4.text-center
-            p #[b Información externa]
-              br
-              br
-              |Es la información que proviene de agentes externos, debido a que se requiere esta  información por parte de la organización.
+            h4 Información externa
+            p Es la información que proviene de agentes externos, debido a que se requiere esta  información por parte de la organización.
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-7.svg')})`}")
       
       .tarjeta.tarjeta-slide.arriba.mx-auto.d-flex.align-items-center(style=" min-height: 428px; background-color: #FED5B1;")
         .tarjeta-slide__contenedor
           .tarjeta-slide__contenido.p-4.text-center
-            p #[b Información interna]
-              br
-              br
-              |Es la información que se gestiona al interior de la organización, son de conocimiento, administrada y utilizada por las dependencias de la organización.
+            h4 Información interna
+            p Es la información que se gestiona al interior de la organización, son de conocimiento, administrada y utilizada por las dependencias de la organización.
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-8.svg')})`}")
 
     Separador
@@ -134,7 +124,7 @@
 
     p.mb-5(data-aos="fade-right") En la obtención de información es indispensable implementar unas correctas técnicas o metodologías de recolección, que permitan a las entidades realizar una correcta planeación y ser eficaz en el momento que se deban tomar decisiones. A continuación, encontraremos algunos elementos que la estadística aporta a la recolección de información:
 
-    TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
+    TabsB.color-acento-contenido.mb-5.tabs-edit-icon(data-aos="fade-left")
       .py-4.py-md-5(titulo="Estadística" :icono="require('@/assets/curso/temas/tema1/p-1.svg')")
         .row.col-xl-10.mx-auto
           .col-md-7.mb-4.mb-md-0.order-2.order-md-1
@@ -187,20 +177,139 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 1
       span N.° de datos recolectados
-    img(src='@/assets/curso/temas/tema1/t-1.svg' style='max-width: 400px' data-aos='fade-right').mb-5.mx-auto
+    table.table-edit.mb-5.mx-auto
+      tr
+        td 1
+        td 2
+        td 3
+        td 4
+        td 1
+      tr
+        td 4
+        td 3
+        td 2
+        td 1
+        td 1
+      tr
+        td 2
+        td 3
+        td 2
+        td 1
+        td 1
+      tr
+        td 1
+        td 1
+        td 1
+        td 2
+        td 2
+      tr
+        td 2
+        td 3
+        td 1
+        td 1
+        td 2
     p.mb-5 Luego de dichos resultados, se deben presentar los datos de una forma ordenada, que es una de las cualidades de la estadística descriptiva:
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 2
       span Datos recolectados ordenados
     .d-flex.flex-wrap.justify-content-center.mb-5
-      img(src='@/assets/curso/temas/tema1/t-2.svg' style='max-width: 400px' data-aos='fade-left').mb-4.mb-xl-0
-      img(src='@/assets/curso/temas/tema1/t-3.svg' style='max-width: 400px' data-aos='fade-right').mx-lg-4
+      table.table-edit.mb-4.mb-xl-0
+        tr
+          th Préstamos (x)
+          th N.° de personas (f)
+        tr
+          td 1
+          td 11
+        tr
+          td 2
+          td 8
+        tr
+          td 3
+          td 4
+        tr
+          td 4
+          td 2
+        tr
+          td n
+          td 25
+      table.table-edit.mx-lg-4
+        tr
+          td 1
+          td 1
+          td 1
+          td 1
+          td 1
+        tr
+          td 1
+          td 1
+          td 1
+          td 1
+          td 1
+        tr
+          td 1
+          td 2
+          td 2
+          td 2
+          td 2
+        tr
+          td 2
+          td 2
+          td 2
+          td 2
+          td 3
+        tr
+          td 3
+          td 3
+          td 3
+          td 4
+          td 4
     
     p.mb-5 A partir de la información recolectada, se estima las medidas de tendencia central y desviación estándar, con el uso análisis de datos en Excel:
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Tabla 3
       span Medidas de tendencia
-    img(src='@/assets/curso/temas/tema1/t-4.svg' style='max-width: 400px' data-aos='fade-right').mb-5.mx-auto
+    table.table-edit.mb-5.mx-auto
+      tr
+        th(colspan="2") Préstamos
+      tr
+        td Media
+        td 1,88
+      tr
+        td Error típico
+        td 0,194250697
+      tr
+        td Mediana
+        td 2
+      tr
+        td Moda
+        td 1
+      tr
+        td Divición estándar
+        td 0,971253486
+      tr
+        td Varianza de la muestra
+        td 0,943333333
+      tr
+        td Curtosis
+        td 0,209633384
+      tr
+        td Coeficiente de asimetría
+        td 0,849904206
+      tr
+        td Rango
+        td 3
+      tr
+        td Mínimo
+        td 1
+      tr
+        td Máximo
+        td 4
+      tr
+        td Suma
+        td 47
+      tr
+        td Cuenta
+        td 25
     
     p.mb-5 Luego, se analizan los datos como procedimiento final de lo ejemplificado:
 
@@ -325,7 +434,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_3 1.3 Tipo de base de datos
     
-    .d-flex.flex-wrap.mb-5(data-aos="fade-right")
+    .d-flex.flex-wrap.align-items-center.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/temas/tema1/relacional.jpg' style="max-width: 137px;").m-auto.mb-4.mb-xl-auto
       .col-12.col-md.ps-md-4
         p En la gestión de la información en las organizaciones, se gestionan las bases de datos, las cuales se encargan de recopilar y organizar la información; en la actualidad existen #[em software] que permiten gestionar las bases de datos y permiten almacenar y acceder de una forma oportuna a la información.
@@ -353,7 +462,7 @@
                 p.ps-3 #[b Base de datos dinámica:] permite realizar modificaciones a los datos almacenados y registrados; estos datos pueden ser editados o eliminados; un ejemplo de estas bases de datos son los inventarios.
         .col-md-6
           figure
-            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-27.png' style="max-width: 505px")
+            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-28.png' style="max-width: 505px")
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-md-6.mb-4.mb-md-0
@@ -361,7 +470,7 @@
           p Bases de datos de acuerdo con su contenido, dentro de las cuales se encuentran las bases de datos bibliográficas, bases de datos de textos y base de datos de directorios.
         .col-md-6
           figure
-            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-27.png' style="max-width: 505px")
+            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-29.png' style="max-width: 505px")
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-md-6.mb-4.mb-md-0
@@ -388,7 +497,7 @@
                 p.ps-3 #[b Base de datos transaccionales:] son las bases de datos que permiten recibir y enviar información de datos a una gran velocidad.
         .col-md-6
           figure
-            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-27.png' style="max-width: 505px")
+            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-30.png' style="max-width: 505px")
 
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-md-6.mb-4.mb-md-0
@@ -501,6 +610,11 @@ export default {
   .pasos-a__circle
     .h2
       color: white !important
+.tabs-edit-icon
+  .tabs-b__tab__icon img
+    filter: grayscale(1)
+  .tabs-b__tab--active .tabs-b__tab__icon img
+    filter: grayscale(0)
 .tarjeta-edit-bg
   display: flex
   flex-wrap: wrap

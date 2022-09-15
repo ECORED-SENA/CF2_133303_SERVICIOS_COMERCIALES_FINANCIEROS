@@ -136,9 +136,9 @@
     p.mb-5(data-aos="fade-right") Las tasas nominales también se encuentran representadas de acuerdo con el periodo en el cual se encuentra liquidado el interés; es decir, pueden ser anticipadas o vencidas. Para clarificar un poco, a continuación, #[b se expone un ejemplo sobre cómo convertir la tasa de interés.]
 
     .d-flex.flex-wrap.mb-5
-      .col-xl-6.pe-xl-3.order-2.order-xl-1.mt-auto
+      .col-12.col-xl-6.pe-xl-3.order-2.order-xl-1.mt-auto
         h4 Por ejemplo:
-        SlyderE(indicadores="derecha" data-aos="fade-left").mt-auto
+        SlyderE.px-3(indicadores="derecha" data-aos="fade-left").mt-auto
           .row
             p Se realiza una inversión que pague un interés del 8% nominal al final de cada trimestre, por lo cual se denomina 8% Nominal Trimestre Vencido (NTV); de lo contrario también se puede establecer que el pago del interés es pago al principio de cada trimestre, por lo cual se denomina 8% Nominal Trimestre Anticipado (NTA).
               br
@@ -217,7 +217,7 @@
               |#[b TE: ((1,21) ^(1/12))-1]
               br
               |TE: 1,81% efectiva mensual 
-      img(src="@/assets/curso/temas/tema2/img-6.jpg" data-aos="fade-left").col-xl-6.order-1.order-xl-2.mb-4.my-xl-auto
+      img(src="@/assets/curso/temas/tema2/img-6.jpg" data-aos="fade-left").col-12.col-xl-6.order-1.order-xl-2.mb-4.my-xl-auto
 
     
 
