@@ -462,7 +462,7 @@
                 p.ps-3 #[b Base de datos dinámica:] permite realizar modificaciones a los datos almacenados y registrados; estos datos pueden ser editados o eliminados; un ejemplo de estas bases de datos son los inventarios.
         .col-md-6
           figure
-            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-28.png' style="max-width: 505px")
+            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-27.png' style="max-width: 505px")
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-md-6.mb-4.mb-md-0
@@ -470,7 +470,7 @@
           p Bases de datos de acuerdo con su contenido, dentro de las cuales se encuentran las bases de datos bibliográficas, bases de datos de textos y base de datos de directorios.
         .col-md-6
           figure
-            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-29.png' style="max-width: 505px")
+            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-28.png' style="max-width: 505px")
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-md-6.mb-4.mb-md-0
@@ -497,7 +497,7 @@
                 p.ps-3 #[b Base de datos transaccionales:] son las bases de datos que permiten recibir y enviar información de datos a una gran velocidad.
         .col-md-6
           figure
-            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-30.png' style="max-width: 505px")
+            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-29.png' style="max-width: 505px")
 
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .col-md-6.mb-4.mb-md-0
@@ -523,7 +523,7 @@
                 p.ps-3 #[b Base de datos multidimensionales:] esta base de datos se emplea para el desarrollo de aplicaciones.
         .col-md-6
           figure
-            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-27.png' style="max-width: 505px")
+            img.ms-md-auto(src='@/assets/curso/temas/tema1/img-30.png' style="max-width: 505px")
     
     p.mb-5(data-aos="fade-right") Estas bases de datos se pueden ubicar en medio local o en la nube; en las bases de datos locales se emplean redes locales (LAN) y es gestionada por la organización; en cuanto a su ubicación en la nube se realiza contratación con proveedores quienes se encargan de realizar el almacenamiento de los datos, a través de internet.
       br

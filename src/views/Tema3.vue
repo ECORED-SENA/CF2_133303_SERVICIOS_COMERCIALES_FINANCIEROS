@@ -362,8 +362,8 @@
 
     .tarjeta-edit-bg.col-xl-10.mx-auto.mb-5
       .col-xl-6.d-flex.pt-3.order-2.order-xl-1.mx-auto(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema3/img-15.svg' style="max-width: 43px")
-        .col.ps-4.d-flex.flex-wrap.align-content-center
+        img.mb-auto(src='@/assets/curso/temas/tema3/img-15.svg' style="max-width: 43px")
+        .col.ps-4.d-flex.flex-wrap.align-content-center.mb-auto
           ul.mb-0.lista-ul--color
             li
               .my-auto.me-3(style="height: 11px; min-width: 11px; border-radius: 50%; background-color: #FC8116")
@@ -383,7 +383,7 @@
       .col-xl-6.order-1.order-xl-2.mx-auto.mb-4.mb-xl-0
         img(src='@/assets/curso/temas/tema3/img-15.png' data-aos="fade-left")
 
-    p.mb-5(data-aos="fade-right") Algunas de las plataformas en las que se pueden realizar consultas del sector financiero en Colombia son la Superintendencia Financiera de Colombia (SFC), el Banco de la República, Asobancaria, centrales de riesgo como Datacrédito, Central de información Financiera (Cifin), Fenalcheque, Covinoc, Procrédito; y también las páginas web de cada entidad financiera.
+    p.pt-xl-4.mb-5(data-aos="fade-right") Algunas de las plataformas en las que se pueden realizar consultas del sector financiero en Colombia son la Superintendencia Financiera de Colombia (SFC), el Banco de la República, Asobancaria, centrales de riesgo como Datacrédito, Central de información Financiera (Cifin), Fenalcheque, Covinoc, Procrédito; y también las páginas web de cada entidad financiera.
 
     Separador
 
@@ -437,6 +437,7 @@ export default {
   padding: 1rem
   padding-top: 0
   padding-right: 0
+  max-height: 259px
   .img-v2
     position: relative
     top: -1rem
