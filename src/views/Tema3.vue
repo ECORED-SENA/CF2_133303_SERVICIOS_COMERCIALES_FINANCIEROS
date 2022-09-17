@@ -225,7 +225,41 @@
 
     p.mb-5(data-aos="fade-right") Estos costos permiten identificar la cantidad de unidades de producto a fabricar o servicios a ofrecer, para alcanzar el punto de equilibrio; por lo cual la fórmula de costos totales es:
 
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-9.svg" data-aos="fade-left")
+    .d-flex.flex-wrap.p-3.p-xl-4.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-9-bg.svg')})`}")
+      .col-xl-7.order-2.order-xl-1
+        .content-box-info.mb-2
+          p.mb-0 #[b CT: CV+CF ]
+            br
+            |CT: cotos totales. 
+            br
+            |CV: costos variables.
+            br
+            |CF: costos fijos.
+        p.ps-3.mb-2 Para determinar el costo por unidad, el cual se conoce como #[b costo medio] o costo unitario, se estima
+
+        .content-box-info.mb-2
+          p.mb-0 #[b CTme: CT/Q ]
+            br
+            |CTme: costo total medio.
+            br
+            |CT: costo total.
+            br
+            |Q: unidades.
+        p.ps-3.mb-2 Dentro de los costos, también se estima #[b el costo marginal] que es el costo por una unidad adicional a producir, la cual se estima como:
+        .content-box-info.mb-2
+          p.mb-0 #[b CM: dCT/dQ ]
+            br
+            |CM: coto marginal.
+            br
+            |dCT: derivada de costo total.
+            br
+            |dCT: derivada de unidades o cantidad.
+        p.ps-3.mb-2 En el análisis de costos se debe estimar el punto de equilibrio, el cual indica las unidades a vender en el cual se cubren los costos totales, el cual se representa con la siguiente fórmula:
+
+        .content-box-info.mb-4
+          p.mb-0 #[b PE: (Costo fijo) / (PV-Costo variable unitario). ]
+      .col-xl-5.order-1.order-xl-2.d-flex
+        img.mx-auto.mb-4.mb-xl-0.mt-auto(src="@/assets/curso/temas/tema3/img-9.svg" data-aos="fade-left")
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 9
@@ -290,7 +324,34 @@
 
     p.mb-5(data-aos="fade-right") La empresa Andina S. A. espera una utilidad del 15% por unidad de producto y para el mes de enero fabricó 5.100 bolsas de pan tajado. 
 
-    img.mx-auto.mb-5(src="@/assets/curso/temas/tema3/img-12.svg" data-aos="fade-left")
+    .d-flex.flex-wrap.p-3.p-xl-4.mb-5(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img-9-bg.svg')})`}")
+      .col-xl-7.order-2.order-xl-1
+        p.ps-3.mb-2 Con los datos anteriores se obtiene unos costos totales de $33.900.000:
+        .content-box-info.mb-2
+          p.mb-0 #[b CT: CV+CF ]
+            br
+            |CT: $ 26.200.000 + $ 7.700.000
+            br
+            |CT: $ 33.900.000
+
+        p.ps-3.mb-2 Para continuar con el ejemplo, se debe de estimar el precio de venta el cual es de: 
+
+        .content-box-info.mb-2
+          p.mb-0 #[b PV: CTme/(1-%utilidad)]
+            br
+            |PV: ($ 5.100) / (1-15%)
+            br
+            |PV: $6.000
+        p.ps-3.mb-2 Ahora se estima el punto de equilibrio, el cual indica el número de producto a vender, para cubrir los costos totales de la empresa Andina S.A.:
+        .content-box-info.mb-2
+          p.mb-0 #[b PE: (Costo fijo) / (PV-Costo variable unitario)]
+            br
+            |PE: ($ 7.700.000) / ($6.000 - $5.137)
+            br
+            |PE: 8.925 unidades
+      .col-xl-5.order-1.order-xl-2.d-flex
+        img.mx-auto.mb-4.mb-xl-0.mt-auto(src="@/assets/curso/temas/tema3/img-12.svg" data-aos="fade-left")
+
     p.mb-5(data-aos="fade-right") Con el análisis anterior se puede decir que la empresa tiene problemas de costos, debido a que solo produce 5.100 unidades de pan y para cubrir los costos totales requiere producir 8.925 unidades.
       br
       br
@@ -327,25 +388,160 @@
         .mb-4.mb-md-0
           h4 Indicador de liquidez o solvencia
           p Es la capacidad que tienen los activos de la empresa, de convertirse en efectivo en el corto plazo.
-          img(src='@/assets/curso/temas/tema3/img-16.svg')
+          table.table-slide
+            tr
+              th(style="border-top: 0; border-left: 0;")
+                p.fw-bold.text-center.header-table(style="margin-left: -1px; margin-top: -1px; border-top-left-radius: 20px; border-top: 1px solid #707070; border-left: 1px solid #707070;") Indicador
+              th 
+                p.fw-bold.text-center.header-table Concepto
+              th(style="border-top: 0; border-right: 0;")
+                p.fw-bold.text-center.header-table(style="margin-top: -1px; border-top-right-radius: 20px; border-top: 1px solid #707070; border-right: 1px solid #707070;") Fórmula
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Capital de trabajo neto
+              td
+                p.body-table-td Son los recursos que emplea la empresa a corto plazo.
+              td
+                p.justify-content-center.text-center.body-table-td (Activo corriente – Pasivo Corriente)
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Índice corriente
+              td
+                p.body-table-td Es la capacidad que tiene la empresa de pagar en el corto plazo y con el activo corriente sus pasivos corrientes.
+              td
+                p.justify-content-center.text-center.body-table-td (Activo corriente / Pasivo corriente)
+            tr
+              td(style="border-bottom: 0; border-left: 0; background-color: transparent")
+                p.justify-content-center.fw-bold.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; margin-left: -1px; border-bottom-left-radius: 20px; border-bottom: 1px solid #707070; border-left: 1px solid #707070;") Prueba ácida
+              td
+                p.body-table-td Es la capacidad de cubrir los pasivos a corto plazo, con los activos, sin contar con los inventarios.
+              td(style="border-bottom: 0; border-right: 0; background-color: transparent")
+                p.justify-content-center.text-center.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; border-bottom-right-radius: 20px; border-bottom: 1px solid #707070; border-right: 1px solid #707070;") ((Activo corriente-inventario) / Pasivo corriente)).
+            
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .mb-4.mb-md-0
           h4 Indicador de endeudamiento
           p Indica el nivel de obligaciones que tiene la empresa frente a terceros.
-          img(src='@/assets/curso/temas/tema3/img-17.svg')
+          table.table-slide
+            tr
+              th(style="border-top: 0; border-left: 0;")
+                p.fw-bold.text-center.header-table(style="margin-left: -1px; margin-top: -1px; border-top-left-radius: 20px; border-top: 1px solid #707070; border-left: 1px solid #707070;") Indicador
+              th 
+                p.fw-bold.text-center.header-table Concepto
+              th(style="border-top: 0; border-right: 0;")
+                p.fw-bold.text-center.header-table(style="margin-top: -1px; border-top-right-radius: 20px; border-top: 1px solid #707070; border-right: 1px solid #707070;") Fórmula
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Endeudamiento total
+              td
+                p.body-table-td Indican el porcentaje que se encuentran comprometidos los activos para el pago de la deuda
+              td
+                p.justify-content-center.text-center.body-table-td ((Pasivo total × 100) / Activo total)).
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Endeudamiento financiero
+              td
+                p.body-table-td Indican el porcentaje que se encuentran comprometidos las ventas para el pago de la obligación financiera.
+              td
+                p.justify-content-center.text-center.body-table-td (Obligación financiera / Venta neta) × 100.
+            tr
+              td(style="border-bottom: 0; border-left: 0; background-color: transparent")
+                p.justify-content-center.fw-bold.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; margin-left: -1px; border-bottom-left-radius: 20px; border-bottom: 1px solid #707070; border-left: 1px solid #707070;") Apalancamiento a corto plazo
+              td
+                p.body-table-td Indican el porcentaje que se encuentran comprometidos los el patrimonio para el pago de la deuda.
+              td(style="border-bottom: 0; border-right: 0; background-color: transparent")
+                p.justify-content-center.text-center.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; border-bottom-right-radius: 20px; border-bottom: 1px solid #707070; border-right: 1px solid #707070;") (Pasivo corriente / Patrimonio).
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .mb-4.mb-md-0
           h4 Indicador de rentabilidad
           p Miden la capacidad que tienen los bienes de la empresa para generar ingresos y rentabilidad.
-          img(src='@/assets/curso/temas/tema3/img-18.svg')
+          table.table-slide
+            tr
+              th(style="border-top: 0; border-left: 0;")
+                p.fw-bold.text-center.header-table(style="margin-left: -1px; margin-top: -1px; border-top-left-radius: 20px; border-top: 1px solid #707070; border-left: 1px solid #707070;") Indicador
+              th 
+                p.fw-bold.text-center.header-table Concepto
+              th(style="border-top: 0; border-right: 0;")
+                p.fw-bold.text-center.header-table(style="margin-top: -1px; border-top-right-radius: 20px; border-top: 1px solid #707070; border-right: 1px solid #707070;") Fórmula
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Margen de utilidad bruta
+              td
+                p.body-table-td Indica el porcentaje de utilidad de las ventas, una vez se cubre los costos de producción.
+              td
+                p.justify-content-center.text-center.body-table-td (Utilidad bruta / ventas netas ) × 100
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Margen de rentabilidad operacional.
+              td
+                p.body-table-td Indica el porcentaje de utilidad de las ventas, una vez se cubre los costos de producción y gastos operativos.
+              td
+                p.justify-content-center.text-center.body-table-td (Utilidad operacional/ ventas netas ) × 100
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Margen neto de utilidad.
+              td
+                p.body-table-td Indica el porcentaje de utilidad de las ventas, una vez se cubre los costos de producción, gastos operativos e impuestos.
+              td
+                p.justify-content-center.text-center.body-table-td (Pasivo corriente / Patrimonio).
+            tr
+              td(style="border-bottom: 0; border-left: 0; background-color: transparent")
+                p.justify-content-center.fw-bold.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; margin-left: -1px; border-bottom-left-radius: 20px; border-bottom: 1px solid #707070; border-left: 1px solid #707070;") Rendimiento de patrimonio.
+              td
+                p.body-table-td Indica el porcentaje de rendimiento de las utilidades netas sobre el patrimonio.
+              td(style="border-bottom: 0; border-right: 0; background-color: transparent")
+                p.justify-content-center.text-center.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; border-bottom-right-radius: 20px; border-bottom: 1px solid #707070; border-right: 1px solid #707070;") (Utilidad operacional/ ventas netas ) × 100
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .mb-4.mb-md-0
           h4 Indicadores de eficiencia
           p Permiten medir la productividad de las empresas.
-          img(src='@/assets/curso/temas/tema3/img-19.svg')
+          table.table-slide
+            tr
+              th(style="border-top: 0; border-left: 0;")
+                p.fw-bold.text-center.header-table(style="margin-left: -1px; margin-top: -1px; border-top-left-radius: 20px; border-top: 1px solid #707070; border-left: 1px solid #707070;") Indicador
+              th 
+                p.fw-bold.text-center.header-table Concepto
+              th(style="border-top: 0; border-right: 0;")
+                p.fw-bold.text-center.header-table(style="margin-top: -1px; border-top-right-radius: 20px; border-top: 1px solid #707070; border-right: 1px solid #707070;") Fórmula
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Rotación de cartera
+              td
+                p.body-table-td Mide el tiempo que tarda la empresa en recuperar su cartera.
+              td
+                p.d-block.body-table-td (Venta crédito / promedio de cuentas por cobrar). 
+                  br
+                  |#[b El promedio de cuentas por cobrar se determina:] (saldo inicial + saldo final) / 2. 
+                  br
+                  |#[b Para determinar el día N.° de días se estima:] (360 / rotación de cartera).
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Rotación de inventarios
+              td
+                p.body-table-td Mide el tiempo que tarda la empresa en rotar el inventario.
+              td
+                p.d-block.body-table-td (Costo de venta del periodo / Inventario promedio de mercancías) N.° de veces.
+                  br
+                  |#[b Para determinar el día N.° de días se estima:] (360 / rotación de inventario).
+            tr
+              td
+                p.justify-content-center.fw-bold.body-table-td Cuentas por pagar
+              td
+                p.body-table-td Mide el tiempo que tarda la empresa en pagar sus obligaciones.
+              td
+                p.d-block.body-table-td #[b (Compras a crédito / Promedio de cuentas por pagar):] N.° de veces.
+                  br
+                  |#[b Para determinar el N.° de días se estima:] (360 / N.° veces).
+            tr
+              td(style="border-bottom: 0; border-left: 0; background-color: transparent")
+                p.justify-content-center.fw-bold.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; margin-left: -1px; border-bottom-left-radius: 20px; border-bottom: 1px solid #707070; border-left: 1px solid #707070;") Rotación de activos fijos.
+              td
+                p.body-table-td Indica la eficiencia de las empresas para generar ingresos.
+              td(style="border-bottom: 0; border-right: 0; background-color: transparent")
+                p.justify-content-center.text-center.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; border-bottom-right-radius: 20px; border-bottom: 1px solid #707070; border-right: 1px solid #707070;") Ventas / Activos fijos.
 
     p.mb-5(data-aos="fade-right") La capacidad de las empresas de analizar estos indicadores financieros permite que se tenga una correcta educación financiera, que busca tener un concepto más profundo de las finanzas y del manejo del dinero, tanto en lo personal como al interior de las organizaciones.
       br
@@ -429,6 +625,29 @@ export default {
     border-bottom-right-radius: 10px
     font-weight: bold
     min-height: 70px
+.content-box-info
+  background-color: #FFF5EC
+  border: 2px solid #FC8116
+  border-radius: 20px
+  padding: 1rem
+  width: 70%
+  @media (max-width: 768px)
+    width: 100%
+.table-slide
+  td,th
+    padding: 0
+    border: 1px solid #707070
+  .header-table
+    background-color: #FFEAD8
+    padding: 1.3rem
+    margin-bottom: 0
+  td
+    background-color: white
+  .body-table-td
+    padding: 1.3rem
+    margin-bottom: 0
+    display: flex
+    height: 100%
 .tarjeta-edit-bg
   display: flex
   flex-wrap: wrap
