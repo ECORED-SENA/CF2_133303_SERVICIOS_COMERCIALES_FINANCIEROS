@@ -87,7 +87,7 @@
       p.col-xl-7.ps-xl-4.mb-0(data-aos="fade-left") De acuerdo con estos métodos tradicionales, se establece un procedimiento de técnicas de ventas en el cual se debe captar la atención del consumidor, el interés del consumidor para dar a conocer el portafolio de producto según la necesidad del cliente al que se debe persuadir para que adquiera los productos y se cierra o finaliza con la venta.
         br
         br
-        |Las organizaciones, dentro de sus métodos de ventas, deben de realizar seguimiento a las misma, después del cierre; con la finalidad de conocer si se cumplió con las expectativas y generó fidelidad por parte del consumidor
+        |Las organizaciones, dentro de sus métodos de ventas, deben de realizar seguimiento a las mismas, después del cierre; con la finalidad de conocer si se cumplió con las expectativas y generó fidelidad por parte del consumidor.
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
       h5 Figura 12
@@ -140,7 +140,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_4_3 4.3.  Entrevista comercial
+      h2#t_4_3 4.3  Entrevista comercial
 
     .d-flex.flex-wrap.align-items-center.mb-5
       img(src="@/assets/curso/temas/tema4/img-4.jpg" data-aos="fade-right").col-xl-5.mx-auto.mb-4.mb-xl-0
@@ -210,7 +210,7 @@
                 br.d-none.d-xl-flex
                 |#[b(style="font-size: 1rem") Protocolo de servicio]
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/protocolo_de_servicio.docx')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/protocolo_de_servicio.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

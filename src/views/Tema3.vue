@@ -45,9 +45,9 @@
             .col.mb-3.mb-sm-0
               p.mb-0.text-small Para tener mayor conocimiento sobre los tipos de registros contables y lo que establece el Código de Comercio, te
                 br.d-none.d-xl-flex
-                |invitamos a revisar el siguiente documento: #[b(style="font-size: 1rem") Tipos de registros contables y los libros de comercio]
+                |invitamos a revisar el siguiente documento: #[b(style="font-size: 1rem") Tipos de registros contables]
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/comercio.docx')" target="_blank")
+              a.boton.color-acento-botones.texto-negro(:href="obtenerLink('downloads/comercio.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -152,8 +152,8 @@
             img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/sl-1.svg" style="max-width: 46px")
             h4.text-center.mb-2(style="min-height: 44px;") Estado de situación financiera (balance general)
           .px-5.py-4.w-100(style="background-color: #FED5B1; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;")
-            p Bienes, dinero y derechos (activos).
-              | Obligaciones (pasivos).
+            p Bienes, dinero y derechos (activos). 
+              | Obligaciones (pasivos). 
               | Capital y reservas (patrimonio)
       
       .col-xl-3.col-lg-6.px-lg-5.px-xl-2.mb-4
@@ -471,14 +471,14 @@
               td
                 p.body-table-td Indica el porcentaje de utilidad de las ventas, una vez se cubre los costos de producción.
               td
-                p.justify-content-center.text-center.body-table-td (Utilidad bruta / ventas netas ) × 100
+                p.justify-content-center.text-center.body-table-td (Utilidad bruta / ventas netas) × 100
             tr
               td
                 p.justify-content-center.fw-bold.body-table-td Margen de rentabilidad operacional.
               td
                 p.body-table-td Indica el porcentaje de utilidad de las ventas, una vez se cubre los costos de producción y gastos operativos.
               td
-                p.justify-content-center.text-center.body-table-td (Utilidad operacional/ ventas netas ) × 100
+                p.justify-content-center.text-center.body-table-td (Utilidad operacional/ ventas netas) × 100
             tr
               td
                 p.justify-content-center.fw-bold.body-table-td Margen neto de utilidad.
@@ -492,7 +492,7 @@
               td
                 p.body-table-td Indica el porcentaje de rendimiento de las utilidades netas sobre el patrimonio.
               td(style="border-bottom: 0; border-right: 0; background-color: transparent")
-                p.justify-content-center.text-center.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; border-bottom-right-radius: 20px; border-bottom: 1px solid #707070; border-right: 1px solid #707070;") (Utilidad operacional/ ventas netas ) × 100
+                p.justify-content-center.text-center.body-table-td(style="background-color: white; min-height: 100px; margin-bottom: -1px; border-bottom-right-radius: 20px; border-bottom: 1px solid #707070; border-right: 1px solid #707070;") (Utilidad operacional/ ventas netas) × 100
       
       .d-flex.flex-wrap.col-xl-11.mx-auto
         .mb-4.mb-md-0
@@ -586,7 +586,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_3_5 3.5 Centrales de riesgo
     
-    p.mb-5(data-aos="fade-right") Las centrales de riesgo son entidades privadas que administran bases de datos que almacenan información respecto al comportamiento financiero de la personas o entidades. Cuando una persona o empresa solicita un préstamo, las entidades financieras consultan estas centrales de riesgo, para verificar el comportamiento de los consumidores; y de acuerdo con el comportamiento de cada consumidor, estos están clasificado por puntajes.
+    p.mb-5(data-aos="fade-right") Las centrales de riesgo son entidades privadas que administran bases de datos que almacenan información respecto al comportamiento financiero de las personas o entidades. Cuando una persona o empresa solicita un préstamo, las entidades financieras consultan estas centrales de riesgo, para verificar el comportamiento de los consumidores; y de acuerdo con el comportamiento de cada consumidor, estos están clasificados por puntajes.
     p.mb-5(data-aos="fade-right") En el siguiente video se podrá encontrar información sobre las principales centrales de riesgo de Colombia como Datacrédito, Cifin, Covinoc, Fenalcheque:
 
     figure.mb-5(data-aos="fade-left")

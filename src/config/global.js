@@ -281,7 +281,7 @@ export default {
     {
       termino: 'Centrales de riesgo',
       significado:
-        'vigila y reporta la información respecto al comportamiento crediticio de las persona u organizaciones.',
+        'vigila y reporta la información respecto al comportamiento crediticio de las personas u organizaciones.',
     },
     {
       termino: 'Cliente',
@@ -384,7 +384,7 @@ export default {
       {
         nombre: 'Gloria Alexandra Orejarena Barrios',
         cargo: 'Diseñadora Instruccional',
-        centro: 'Regional Distro Capital - Centro de Gestión Industrial',
+        centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',

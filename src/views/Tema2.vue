@@ -19,7 +19,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_1 2.1. Interés simple y compuesto
+      h2#t_2_1 2.1 Interés simple y compuesto
     
     p.mb-5(data-aos="fade-right") Antes de comprender qué es el interés simple y el interés compuesto, se debe entender qué es el interés como tal, el cual permite recibir una compensación o pago por el uso del dinero, es lo que se cobra por el préstamo del dinero y depende del tiempo.
       br
@@ -28,7 +28,7 @@
 
     figure.mb-5(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/jEwCaJoqW5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/cQhUTXhrUso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .tarjeta.color-acento-contenido.py-3.px-5.mb-5(style="border-radius: 0; margin-left: -3rem; margin-right: -3rem;" data-aos="fade")
       .row.justify-content-around.align-items-center
@@ -47,7 +47,7 @@
     .container-img-edit-v2.col-xl-10.mx-auto.mb-5
       img(src="@/assets/curso/temas/tema2/img-2.png" style="max-width: 315px" data-aos="fade-right")
       .container-img-edit-v2-container.col-lg(data-aos="fade-left")
-        p.mb-0 El pago de estos dineros, no se da solo con los préstamos, también se da con la captación del dinero, como el ahorro, los Certificado de Depósito a Término Fijo (CDT) e inversiones.
+        p.mb-0 El pago de estos dineros, no se da solo con los préstamos, también se da con la captación del dinero, como el ahorro, los Certificados de Depósito a Término Fijo (CDT) e inversiones.
           br
           br
           |#[b Los intereses se encuentran compuestos por tres variables determinantes, las cuales son el tiempo, la tasa de interés y el capital.]
@@ -120,7 +120,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_2 2.2.  Conversión de tasas de interés
+      h2#t_2_2 2.2  Conversión de tasas de interés
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.col-xl-10.mx-auto.bloque-texto-edit.mb-5
       .bloque-texto-g__img(

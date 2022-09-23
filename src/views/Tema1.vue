@@ -284,7 +284,7 @@
         td Moda
         td 1
       tr
-        td Divición estándar
+        td Desviación estándar
         td 0,971253486
       tr
         td Varianza de la muestra
@@ -337,7 +337,7 @@
       .tarjeta.tarjeta-v1(style="background-color: #FDD85E" data-aos='fade-left')
         img(src='@/assets/curso/temas/tema1/img-18.svg' style='max-width: 160px').mb-4
         h5 Rango
-        p El rango entre en número de préstamos solicitados por los consumidores es de 3, un valor mínimo de 1 y un valor máximo de 4.
+        p El rango entre número de préstamos solicitados por los consumidores es de 3, un valor mínimo de 1 y un valor máximo de 4.
 
     p.mb-5(data-aos="fade-right") En cuanto a la recolección de información y datos, se emplean los diferentes técnicas e instrumentos las que se dividen en dos grupos: recolección de datos de fuentes secundarias y #[b recolección de datos de fuentes primarias.]
       br
@@ -410,7 +410,7 @@
           img(src='@/assets/curso/temas/tema1/img-24.svg' style="max-width: 212px;").banner-principal-decorativo-tj
           .text-center.d-flex.flex-wrap(style="margin-top: 5rem")
             h4.mx-auto.mb-4(style="border-radius: 20px; background-color: white; padding: .3rem 2rem; width: 80%") Sondeos
-            p.mb-0 Se emplea directamente con el encuestado o el entrevistados, del cual se busca tener opinión de un tema especifico.
+            p.mb-0 Se emplea directamente con el encuestado o el entrevistado, del cual se busca tener opinión de un tema específico.
       
       .col-lg-6.col-xl-3.p-2.mx-auto(style="margin-top: 8rem" data-aos="fade-left")
         .tarjeta.p-4.position-relative.h-100(style="background-color: #E4F476")
@@ -514,7 +514,7 @@
                 <svg style="max-width: 20px" xmlns="http://www.w3.org/2000/svg" width="18.667" height="18.666" viewBox="0 0 18.667 18.666">
                   <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M19.229,9.9A9.333,9.333,0,1,1,9.9.563,9.333,9.333,0,0,1,19.229,9.9ZM8.816,14.838l6.925-6.925a.6.6,0,0,0,0-.852l-.852-.852a.6.6,0,0,0-.852,0L8.39,11.857,5.754,9.221a.6.6,0,0,0-.852,0l-.852.852a.6.6,0,0,0,0,.852l3.914,3.914a.6.6,0,0,0,.852,0Z" transform="translate(-0.563 -0.563)" fill="#fc8116"/>
                 </svg>
-                p.ps-3 #[b Base de datos deductivas o lógicas:] la forma de obtener la información de estas bases de datos, es a través de un lenguaje basado en reglas, por lo cual se basa en la lógica matemática.
+                p.ps-3 #[b Base de datos deductiva o lógica:] la forma de obtener la información de estas bases de datos, es a través de un lenguaje basado en reglas, por lo cual se basa en la lógica matemática.
             li
               .my-auto.me-3.d-flex
                 <svg style="max-width: 20px" xmlns="http://www.w3.org/2000/svg" width="18.667" height="18.666" viewBox="0 0 18.667 18.666">
