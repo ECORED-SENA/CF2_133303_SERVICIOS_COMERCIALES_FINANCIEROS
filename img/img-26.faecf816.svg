@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="300" viewBox="0 0 610 300">
+  <g id="Grupo_105825" data-name="Grupo 105825" transform="translate(-810 -8221)">
+    <rect id="Rectángulo_36276" data-name="Rectángulo 36276" width="610" height="300" rx="20" transform="translate(810 8221)" fill="#feefbf"/>
+    <rect id="Rectángulo_36277" data-name="Rectángulo 36277" width="400" height="43" rx="10" transform="translate(915 8290)" fill="#fec08a"/>
+    <text id="La_muestra_se_estima_con_la_siguiente_fórmula:_n_Z_pqN_Ne_Z_pq_donde:_n:_muestra._N:_población._Z:_Nivel_de_confianza._e:_grado_de_error._p:_probabilidad_de_ocurrencia._q:_probabilidad_de_no_ocurrencia." data-name="La muestra se estima con la siguiente fórmula:
+
+n = (Z²pqN) / (Ne² + Z²pq), donde:
+
+n: muestra.
+N: población.
+Z: Nivel de confianza.
+e: grado de error.
+p: probabilidad de ocurrencia.
+q: probabilidad de no ocurrencia." transform="translate(955 8254)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">La muestra se estima con la siguiente fórmula:</tspan><tspan x="0" y="41"></tspan><tspan font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="65">n = (Z²pqN) / (Ne² + Z²pq), donde:</tspan></tspan><tspan x="0" y="89"></tspan><tspan x="0" y="113">n: muestra.</tspan><tspan x="0" y="137">N: población.</tspan><tspan x="0" y="161">Z: Nivel de confianza.</tspan><tspan x="0" y="185">e: grado de error.</tspan><tspan x="0" y="209">p: probabilidad de ocurrencia.</tspan><tspan x="0" y="233">q: probabilidad de no ocurrencia.</tspan></text>
+  </g>
+</svg>
